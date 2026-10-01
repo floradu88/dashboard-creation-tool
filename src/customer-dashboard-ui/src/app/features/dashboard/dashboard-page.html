@@ -1,0 +1,32 @@
+<div class="workspace">
+  <aside class="sidebar">
+    <a class="brand" routerLink="/companies"><span class="brand-mark">N</span> Northstar<span class="brand-dot">.</span></a>
+    <div class="workspace-label">CUSTOMER INTELLIGENCE</div>
+    <nav aria-label="Dashboard sections">
+      <a routerLink="/companies"><span class="nav-dot"></span>Companies</a>
+      @for (item of tabs; track item[0]) {
+        <a [routerLink]="['/dashboard', item[0]]" queryParamsHandling="preserve" routerLinkActive="active"><span class="nav-dot"></span>{{ item[1] }}</a>
+      }
+    </nav>
+    <div class="sidebar-foot"><span class="status-dot"></span> Mock workspace<p>Fictional data · local development</p></div>
+  </aside>
+  <main>
+    <header class="topbar"><span>Workspace <span class="slash">/</span> Customer dashboard</span><span class="avatar" aria-label="Demo account">AD</span></header>
+    <div class="page">
+      <div class="heading"><div><div class="eyebrow">ACCOUNT INTELLIGENCE</div><h1>{{ title() }}</h1><p>A clearer view of your customer relationship.</p></div><span class="badge">JSON MOCK DATA</span></div>
+      <form class="filters" (ngSubmit)="apply()">
+        <label class="customer-filter">Customer<select name="customer" [(ngModel)]="customerId">
+          @for (customer of ctx.customers(); track customer.id) { <option [value]="customer.id">{{ customer.name }}</option> }
+        </select></label>
+        <label>From (inclusive)<input name="from" type="date" [(ngModel)]="from" required></label>
+        <label>To (exclusive)<input name="to" type="date" [(ngModel)]="to" required></label>
+        <label>Compare from<input name="compareFrom" type="date" [(ngModel)]="compareFrom"></label>
+        <label>Compare to<input name="compareTo" type="date" [(ngModel)]="compareTo"></label>
+        <button mat-flat-button type="submit">Apply filters</button>
+      </form>
+      @if (!ctx.customers().length) { <section class="panel notice"><h2>No customers yet</h2><p>Add a customer to customers.json and restart the API.</p></section> }
+      <router-outlet />
+      <footer>Northstar workspace <span>Fictional customers · illustrative sample records</span></footer>
+    </div>
+  </main>
+</div>

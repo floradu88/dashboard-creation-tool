@@ -1,0 +1,8 @@
+---
+description: Application responsibilities and validation
+globs: "src/CustomerDashboard.Application/**/*"
+alwaysApply: false
+---
+
+Read and follow `src/CustomerDashboard.Application/AGENTS.md` and its ancestor `AGENTS.md` files before editing matched files. These shared files define scope, dependency boundaries, data rules and validation expectations.
+

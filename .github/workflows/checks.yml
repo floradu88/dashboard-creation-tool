@@ -1,0 +1,23 @@
+name: checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24.15.0
+      - name: Setup
+        shell: pwsh
+        run: ./scripts/setup.ps1
+      - name: Test
+        shell: pwsh
+        run: ./scripts/test.ps1

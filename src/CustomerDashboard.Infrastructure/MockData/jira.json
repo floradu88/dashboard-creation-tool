@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "source": "Jira",
+  "mode": "Mock",
+  "lastSuccessfulExtractionAtUtc": "2026-09-29T08:00:00Z",
+  "dataThroughUtc": "2026-09-29T07:55:00Z",
+  "data": {
+    "features": [
+      {
+        "id": "feature-analytics",
+        "customerId": "customer-001",
+        "name": "Analytics export improvement"
+      },
+      {
+        "id": "feature-harbor",
+        "customerId": "customer-002",
+        "name": "Harborline yard tracking"
+      },
+      {
+        "id": "feature-004-auth",
+        "customerId": "customer-004",
+        "name": "Online card authorization"
+      },
+      {
+        "id": "feature-004-settle",
+        "customerId": "customer-004",
+        "name": "Card settlement files"
+      },
+      {
+        "id": "feature-005-auth",
+        "customerId": "customer-005",
+        "name": "Online card authorization"
+      },
+      {
+        "id": "feature-005-settle",
+        "customerId": "customer-005",
+        "name": "Card settlement files"
+      },
+      {
+        "id": "feature-006-auth",
+        "customerId": "customer-006",
+        "name": "Online card authorization"
+      },
+      {
+        "id": "feature-006-settle",
+        "customerId": "customer-006",
+        "name": "Card settlement files"
+      },
+      {
+        "id": "feature-007-auth",
+        "customerId": "customer-007",
+        "name": "Online card authorization"
+      },
+      {
+        "id": "feature-007-settle",
+        "customerId": "customer-007",
+        "name": "Card settlement files"
+      },
+      {
+        "id": "feature-008-auth",
+        "customerId": "customer-008",
+        "name": "Online card authorization"
+      },
+      {
+        "id": "feature-008-settle",
+        "customerId": "customer-008",
+        "name": "Card settlement files"
+      },
+      {
+        "id": "feature-009-auth",
+        "customerId": "customer-009",
+        "name": "Online card authorization"
+      },
+      {
+        "id": "feature-009-settle",
+        "customerId": "customer-009",
+        "name": "Card settlement files"
+      }
+    ],
+    "issues": [
+      {
+        "id": "jira-001",
+        "key": "NS-101",
+        "customerId": "customer-001",
+        "featureId": "feature-analytics",
+        "canonicalRequestId": "request-001",
+        "type": "Improvement",
+        "title": "Add analytics export",
+        "status": "InProgress",
+        "createdAtUtc": "2026-09-12T09:00:00Z",
+        "updatedAtUtc": "2026-09-25T10:00:00Z",
+        "resolvedAtUtc": null,
+        "sourceUrl": "https://jira.example/browse/NS-101"
+      },
+      {
+        "id": "jira-002",
+        "key": "HB-14",
+        "customerId": "customer-002",
+        "featureId": "feature-harbor",
+        "canonicalRequestId": "request-002",
+        "type": "Bug",
+        "title": "Record the missing labor rate",
+        "status": "Blocked",
+        "createdAtUtc": "2026-09-18T15:00:00Z",
+        "updatedAtUtc": "2026-09-22T15:00:00Z",
+        "resolvedAtUtc": null,
+        "sourceUrl": "https://jira.example/browse/HB-14"
+      },
+      {
+        "id": "jira-004-open",
+        "key": "CARD-0041",
+        "customerId": "customer-004",
+        "featureId": "feature-004-auth",
+        "canonicalRequestId": "request-004-rfp",
+        "type": "Improvement",
+        "title": "Raise approval rate on card-not-present authorizations",
+        "status": "InProgress",
+        "createdAtUtc": "2026-09-05T09:00:00Z",
+        "updatedAtUtc": "2026-09-26T11:00:00Z",
+        "resolvedAtUtc": null,
+        "sourceUrl": "https://jira.example/browse/CARD-0041"
+      },
+      {
+        "id": "jira-004-done",
+        "key": "CARD-0042",
+        "customerId": "customer-004",
+        "featureId": "feature-004-settle",
+        "canonicalRequestId": "request-004-feature",
+        "type": "Story",
+        "title": "Deliver the 3-D Secure challenge for checkout",
+        "status": "Done",
+        "createdAtUtc": "2026-09-08T09:00:00Z",
+        "updatedAtUtc": "2026-09-22T16:00:00Z",
+        "resolvedAtUtc": "2026-09-22T16:00:00Z",
+        "sourceUrl": "https://jira.example/browse/CARD-0042"
+      },
+      {
+        "id": "jira-005-open",
+        "key": "CARD-0051",
+        "customerId": "customer-005",
+        "featureId": "feature-005-auth",
+        "canonicalRequestId": "request-005-rfp",
+        "type": "Improvement",
+        "title": "Raise approval rate on card-not-present authorizations",
+        "status": "InProgress",
+        "createdAtUtc": "2026-09-05T09:00:00Z",
+        "updatedAtUtc": "2026-09-26T11:00:00Z",
+        "resolvedAtUtc": null,
+        "sourceUrl": "https://jira.example/browse/CARD-0051"
+      },
+      {
+        "id": "jira-005-done",
+        "key": "CARD-0052",
+        "customerId": "customer-005",
+        "featureId": "feature-005-settle",
+        "canonicalRequestId": "request-005-feature",
+        "type": "Story",
+        "title": "Deliver the 3-D Secure challenge for checkout",
+        "status": "Done",
+        "createdAtUtc": "2026-09-08T09:00:00Z",
+        "updatedAtUtc": "2026-09-22T16:00:00Z",
+        "resolvedAtUtc": "2026-09-22T16:00:00Z",
+        "sourceUrl": "https://jira.example/browse/CARD-0052"
+      },
+      {
+        "id": "jira-006-open",
+        "key": "CARD-0061",
+        "customerId": "customer-006",
+        "featureId": "feature-006-auth",
+        "canonicalRequestId": "request-006-rfp",
+        "type": "Improvement",
+        "title": "Raise approval rate on card-not-present authorizations",
+        "status": "InProgress",
+        "createdAtUtc": "2026-09-05T09:00:00Z",
+        "updatedAtUtc": "2026-09-26T11:00:00Z",
+        "resolvedAtUtc": null,
+        "sourceUrl": "https://jira.example/browse/CARD-0061"
+      },
+      {
+        "id": "jira-006-done",
+        "key": "CARD-0062",
+        "customerId": "customer-006",
+        "featureId": "feature-006-settle",
+        "canonicalRequestId": "request-006-feature",
+        "type": "Story",
+        "title": "Deliver the 3-D Secure challenge for checkout",
+        "status": "Done",
+        "createdAtUtc": "2026-09-08T09:00:00Z",
+        "updatedAtUtc": "2026-09-22T16:00:00Z",
+        "resolvedAtUtc": "2026-09-22T16:00:00Z",
+        "sourceUrl": "https://jira.example/browse/CARD-0062"
+      },
+      {
+        "id": "jira-007-open",
+        "key": "CARD-0071",
+        "customerId": "customer-007",
+        "featureId": "feature-007-auth",
+        "canonicalRequestId": "request-007-rfp",
+        "type": "Improvement",
+        "title": "Raise approval rate on the stored-card wallet",
+        "status": "InProgress",
+        "createdAtUtc": "2026-09-05T09:00:00Z",
+        "updatedAtUtc": "2026-09-26T11:00:00Z",
+        "resolvedAtUtc": null,
+        "sourceUrl": "https://jira.example/browse/CARD-0071"
+      },
+      {
+        "id": "jira-007-done",
+        "key": "CARD-0072",
+        "customerId": "customer-007",
+        "featureId": "feature-007-settle",
+        "canonicalRequestId": "request-007-feature",
+        "type": "Story",
+        "title": "Deliver the 3-D Secure challenge for the stored-card wallet",
+        "status": "Done",
+        "createdAtUtc": "2026-09-08T09:00:00Z",
+        "updatedAtUtc": "2026-09-22T16:00:00Z",
+        "resolvedAtUtc": "2026-09-22T16:00:00Z",
+        "sourceUrl": "https://jira.example/browse/CARD-0072"
+      },
+      {
+        "id": "jira-008-open",
+        "key": "CARD-0081",
+        "customerId": "customer-008",
+        "featureId": "feature-008-auth",
+        "canonicalRequestId": "request-008-rfp",
+        "type": "Improvement",
+        "title": "Raise approval rate on the platform checkout",
+        "status": "InProgress",
+        "createdAtUtc": "2026-09-05T09:00:00Z",
+        "updatedAtUtc": "2026-09-26T11:00:00Z",
+        "resolvedAtUtc": null,
+        "sourceUrl": "https://jira.example/browse/CARD-0081"
+      },
+      {
+        "id": "jira-008-done",
+        "key": "CARD-0082",
+        "customerId": "customer-008",
+        "featureId": "feature-008-settle",
+        "canonicalRequestId": "request-008-feature",
+        "type": "Story",
+        "title": "Deliver the 3-D Secure challenge for the platform checkout",
+        "status": "Done",
+        "createdAtUtc": "2026-09-08T09:00:00Z",
+        "updatedAtUtc": "2026-09-22T16:00:00Z",
+        "resolvedAtUtc": "2026-09-22T16:00:00Z",
+        "sourceUrl": "https://jira.example/browse/CARD-0082"
+      },
+      {
+        "id": "jira-009-open",
+        "key": "CARD-0091",
+        "customerId": "customer-009",
+        "featureId": "feature-009-auth",
+        "canonicalRequestId": "request-009-rfp",
+        "type": "Improvement",
+        "title": "Raise approval rate on the marketplace checkout",
+        "status": "InProgress",
+        "createdAtUtc": "2026-09-05T09:00:00Z",
+        "updatedAtUtc": "2026-09-26T11:00:00Z",
+        "resolvedAtUtc": null,
+        "sourceUrl": "https://jira.example/browse/CARD-0091"
+      },
+      {
+        "id": "jira-009-done",
+        "key": "CARD-0092",
+        "customerId": "customer-009",
+        "featureId": "feature-009-settle",
+        "canonicalRequestId": "request-009-feature",
+        "type": "Story",
+        "title": "Deliver the 3-D Secure challenge for the marketplace checkout",
+        "status": "Done",
+        "createdAtUtc": "2026-09-08T09:00:00Z",
+        "updatedAtUtc": "2026-09-22T16:00:00Z",
+        "resolvedAtUtc": "2026-09-22T16:00:00Z",
+        "sourceUrl": "https://jira.example/browse/CARD-0092"
+      }
+    ],
+    "worklogs": [
+      {
+        "id": "worklog-001",
+        "issueId": "jira-001",
+        "workerId": "worker-001",
+        "startedAtUtc": "2026-09-21T09:00:00Z",
+        "hours": 5,
+        "approved": true,
+        "allocations": [
+          {
+            "customerId": "customer-001",
+            "featureId": "feature-analytics",
+            "fraction": 1
+          }
+        ]
+      },
+      {
+        "id": "worklog-unapproved",
+        "issueId": "jira-001",
+        "workerId": "worker-001",
+        "startedAtUtc": "2026-09-22T09:00:00Z",
+        "hours": 2,
+        "approved": false,
+        "allocations": [
+          {
+            "customerId": "customer-001",
+            "featureId": "feature-analytics",
+            "fraction": 1
+          }
+        ]
+      },
+      {
+        "id": "worklog-missing-rate",
+        "issueId": "jira-002",
+        "workerId": "worker-002",
+        "startedAtUtc": "2026-09-22T14:00:00Z",
+        "hours": 3,
+        "approved": true,
+        "allocations": [
+          {
+            "customerId": "customer-002",
+            "featureId": "feature-harbor",
+            "fraction": 1
+          }
+        ]
+      },
+      {
+        "id": "worklog-004",
+        "issueId": "jira-004-open",
+        "workerId": "worker-004",
+        "startedAtUtc": "2026-09-16T09:00:00Z",
+        "hours": 6,
+        "approved": true,
+        "allocations": [
+          {
+            "customerId": "customer-004",
+            "featureId": "feature-004-auth",
+            "fraction": 0.75
+          },
+          {
+            "customerId": "customer-004",
+            "featureId": "feature-004-settle",
+            "fraction": 0.25
+          }
+        ]
+      },
+      {
+        "id": "worklog-005",
+        "issueId": "jira-005-open",
+        "workerId": "worker-005",
+        "startedAtUtc": "2026-09-16T09:00:00Z",
+        "hours": 6,
+        "approved": true,
+        "allocations": [
+          {
+            "customerId": "customer-005",
+            "featureId": "feature-005-auth",
+            "fraction": 0.75
+          },
+          {
+            "customerId": "customer-005",
+            "featureId": "feature-005-settle",
+            "fraction": 0.25
+          }
+        ]
+      },
+      {
+        "id": "worklog-006",
+        "issueId": "jira-006-open",
+        "workerId": "worker-006",
+        "startedAtUtc": "2026-09-16T09:00:00Z",
+        "hours": 6,
+        "approved": true,
+        "allocations": [
+          {
+            "customerId": "customer-006",
+            "featureId": "feature-006-auth",
+            "fraction": 0.75
+          },
+          {
+            "customerId": "customer-006",
+            "featureId": "feature-006-settle",
+            "fraction": 0.25
+          }
+        ]
+      },
+      {
+        "id": "worklog-007",
+        "issueId": "jira-007-open",
+        "workerId": "worker-007",
+        "startedAtUtc": "2026-09-16T09:00:00Z",
+        "hours": 6,
+        "approved": true,
+        "allocations": [
+          {
+            "customerId": "customer-007",
+            "featureId": "feature-007-auth",
+            "fraction": 0.75
+          },
+          {
+            "customerId": "customer-007",
+            "featureId": "feature-007-settle",
+            "fraction": 0.25
+          }
+        ]
+      },
+      {
+        "id": "worklog-008",
+        "issueId": "jira-008-open",
+        "workerId": "worker-008",
+        "startedAtUtc": "2026-09-16T09:00:00Z",
+        "hours": 6,
+        "approved": true,
+        "allocations": [
+          {
+            "customerId": "customer-008",
+            "featureId": "feature-008-auth",
+            "fraction": 0.75
+          },
+          {
+            "customerId": "customer-008",
+            "featureId": "feature-008-settle",
+            "fraction": 0.25
+          }
+        ]
+      },
+      {
+        "id": "worklog-009",
+        "issueId": "jira-009-open",
+        "workerId": "worker-009",
+        "startedAtUtc": "2026-09-16T09:00:00Z",
+        "hours": 6,
+        "approved": true,
+        "allocations": [
+          {
+            "customerId": "customer-009",
+            "featureId": "feature-009-auth",
+            "fraction": 0.75
+          },
+          {
+            "customerId": "customer-009",
+            "featureId": "feature-009-settle",
+            "fraction": 0.25
+          }
+        ]
+      }
+    ]
+  }
+}

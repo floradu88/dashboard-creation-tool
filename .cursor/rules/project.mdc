@@ -1,0 +1,7 @@
+---
+description: Project architecture, scope and folder instruction discovery
+alwaysApply: true
+---
+
+Read and follow `AGENTS.md` and `PLAN.md` at the repository root. Before editing any file, read every ancestor and target-folder `AGENTS.md`. Scoped rules below reference the same shared instructions; read their contents rather than treating the reference alone as sufficient context.
+

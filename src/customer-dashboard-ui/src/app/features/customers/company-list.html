@@ -1,0 +1,57 @@
+<div class="workspace">
+  <aside class="sidebar">
+    <a class="brand" routerLink="/companies"><span class="brand-mark">N</span> Northstar<span class="brand-dot">.</span></a>
+    <div class="workspace-label">CUSTOMER INTELLIGENCE</div>
+    <nav aria-label="Workspace">
+      <a routerLink="/companies" routerLinkActive="active"><span class="nav-dot"></span>Companies</a>
+    </nav>
+    <div class="sidebar-foot"><span class="status-dot"></span> Mock workspace<p>Fictional data · local development</p></div>
+  </aside>
+  <main>
+    <header class="topbar"><span>Workspace <span class="slash">/</span> Companies</span><span class="avatar" aria-label="Demo account">AD</span></header>
+    <div class="page">
+      <div class="heading"><div><div class="eyebrow">ACCOUNT INTELLIGENCE</div><h1>Companies</h1><p>Search the fictional customer list, then open a company dashboard.</p></div><span class="badge">JSON MOCK DATA</span></div>
+      <form class="filters" (ngSubmit)="submit()">
+        <label class="customer-filter">Search by name<input name="search" [(ngModel)]="search" placeholder="Company name"></label>
+        <button mat-flat-button type="submit">Search</button>
+      </form>
+      @if (loading() && !result()) {
+        <section aria-live="polite" aria-busy="true"><p class="muted">Loading companies…</p><div class="skeleton large"></div></section>
+      } @else if (error() && !result()) {
+        <section class="panel notice" role="alert"><h2>Companies unavailable</h2><p>{{ error() }}</p><button mat-stroked-button type="button" (click)="go(page)">Retry</button></section>
+      } @else if (result(); as page) {
+        @if (error()) { <section class="panel notice compact" role="alert"><p>{{ error() }}</p></section> }
+        <section class="panel chart-panel">
+          <div class="panel-heading"><div><h2>Company list</h2><p>{{ range(page.data) }}</p></div></div>
+          @if (!page.data.items.length) {
+            <p>No companies match this search.</p>
+          } @else {
+            <div class="table-wrap">
+              <table class="company-table">
+                <thead><tr><th>Company</th><th>Industry</th><th>Currency</th><th>Dashboard</th></tr></thead>
+                <tbody>
+                  @for (company of page.data.items; track company.id) {
+                    <tr>
+                      <td class="source-name"><a [routerLink]="['/dashboard/overview']" [queryParams]="{ customer: company.id, from: from, to: to }">{{ company.name }}</a></td>
+                      <td>{{ company.industry }}</td>
+                      <td>{{ company.reportingCurrency }}</td>
+                      <td><a class="open" [routerLink]="['/dashboard/overview']" [queryParams]="{ customer: company.id, from: from, to: to }">Open dashboard</a></td>
+                    </tr>
+                  }
+                </tbody>
+              </table>
+            </div>
+          }
+          <div class="pager">
+            <span>Page {{ page.data.page }}</span>
+            <div class="pager-actions">
+              <button mat-stroked-button type="button" (click)="go(page.data.page - 1)" [disabled]="!canPrevious(page.data)">Previous</button>
+              <button mat-stroked-button type="button" (click)="go(page.data.page + 1)" [disabled]="!canNext(page.data)">Next</button>
+            </div>
+          </div>
+        </section>
+      }
+      <footer>Northstar workspace <span>Fictional customers · illustrative sample records</span></footer>
+    </div>
+  </main>
+</div>

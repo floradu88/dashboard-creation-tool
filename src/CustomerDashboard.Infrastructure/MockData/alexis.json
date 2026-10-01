@@ -1,0 +1,3028 @@
+{
+  "schemaVersion": 1,
+  "source": "Alexis",
+  "mode": "Mock",
+  "lastSuccessfulExtractionAtUtc": "2026-09-29T08:00:00Z",
+  "dataThroughUtc": "2026-09-29T07:55:00Z",
+  "data": {
+    "revenueEntries": [
+      {
+        "id": "rev-2025-10",
+        "customerId": "customer-001",
+        "recognitionDate": "2025-10-01",
+        "amount": {
+          "amount": 9000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized service revenue"
+      },
+      {
+        "id": "rev-2025-11",
+        "customerId": "customer-001",
+        "recognitionDate": "2025-11-01",
+        "amount": {
+          "amount": 9000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized service revenue"
+      },
+      {
+        "id": "rev-2025-12",
+        "customerId": "customer-001",
+        "recognitionDate": "2025-12-01",
+        "amount": {
+          "amount": 9000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized service revenue"
+      },
+      {
+        "id": "rev-2026-01",
+        "customerId": "customer-001",
+        "recognitionDate": "2026-01-01",
+        "amount": {
+          "amount": 9000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized service revenue"
+      },
+      {
+        "id": "rev-2026-02",
+        "customerId": "customer-001",
+        "recognitionDate": "2026-02-01",
+        "amount": {
+          "amount": 9000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized service revenue"
+      },
+      {
+        "id": "rev-2026-03",
+        "customerId": "customer-001",
+        "recognitionDate": "2026-03-01",
+        "amount": {
+          "amount": 9000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized service revenue"
+      },
+      {
+        "id": "rev-2026-04",
+        "customerId": "customer-001",
+        "recognitionDate": "2026-04-01",
+        "amount": {
+          "amount": 9000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized service revenue"
+      },
+      {
+        "id": "rev-2026-05",
+        "customerId": "customer-001",
+        "recognitionDate": "2026-05-01",
+        "amount": {
+          "amount": 9000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized service revenue"
+      },
+      {
+        "id": "rev-2026-06",
+        "customerId": "customer-001",
+        "recognitionDate": "2026-06-01",
+        "amount": {
+          "amount": 9000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized service revenue"
+      },
+      {
+        "id": "rev-2026-07",
+        "customerId": "customer-001",
+        "recognitionDate": "2026-07-01",
+        "amount": {
+          "amount": 9000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized service revenue"
+      },
+      {
+        "id": "rev-2026-08",
+        "customerId": "customer-001",
+        "recognitionDate": "2026-08-01",
+        "amount": {
+          "amount": 9000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized service revenue"
+      },
+      {
+        "id": "rev-001",
+        "customerId": "customer-001",
+        "recognitionDate": "2026-09-01",
+        "amount": {
+          "amount": 10000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "September recognized service revenue"
+      },
+      {
+        "id": "rev-002",
+        "customerId": "customer-002",
+        "recognitionDate": "2026-09-15",
+        "amount": {
+          "amount": 5000,
+          "currency": "USD"
+        },
+        "category": "OneOff",
+        "description": "September project revenue"
+      },
+      {
+        "id": "rev-004-2025-10-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2025-10-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2025-11-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2025-11-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2025-12-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2025-12-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2026-01-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2026-01-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2026-02-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2026-02-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2026-03-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2026-03-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2026-04-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2026-04-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2026-05-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2026-05-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2026-06-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2026-06-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2026-07-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2026-07-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2026-08-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2026-08-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2026-09-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2026-09-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2026-10-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2026-10-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-2026-11-01",
+        "customerId": "customer-004",
+        "recognitionDate": "2026-11-01",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-004-oneoff",
+        "customerId": "customer-004",
+        "recognitionDate": "2026-09-18",
+        "amount": {
+          "amount": 2500,
+          "currency": "EUR"
+        },
+        "category": "OneOff",
+        "description": "One-off card network certification fee"
+      },
+      {
+        "id": "rev-005-2025-10-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2025-10-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2025-11-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2025-11-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2025-12-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2025-12-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2026-01-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2026-01-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2026-02-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2026-02-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2026-03-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2026-03-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2026-04-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2026-04-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2026-05-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2026-05-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2026-06-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2026-06-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2026-07-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2026-07-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2026-08-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2026-08-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2026-09-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2026-09-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2026-10-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2026-10-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-2026-11-01",
+        "customerId": "customer-005",
+        "recognitionDate": "2026-11-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-005-oneoff",
+        "customerId": "customer-005",
+        "recognitionDate": "2026-09-18",
+        "amount": {
+          "amount": 2500,
+          "currency": "USD"
+        },
+        "category": "OneOff",
+        "description": "One-off card network certification fee"
+      },
+      {
+        "id": "rev-006-2025-10-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2025-10-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2025-11-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2025-11-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2025-12-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2025-12-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2026-01-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2026-01-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2026-02-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2026-02-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2026-03-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2026-03-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2026-04-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2026-04-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2026-05-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2026-05-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2026-06-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2026-06-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2026-07-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2026-07-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2026-08-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2026-08-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2026-09-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2026-09-01",
+        "amount": {
+          "amount": 14500,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2026-10-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2026-10-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-2026-11-01",
+        "customerId": "customer-006",
+        "recognitionDate": "2026-11-01",
+        "amount": {
+          "amount": 12000,
+          "currency": "GBP"
+        },
+        "category": "Recurring",
+        "description": "Recognized online card processing revenue"
+      },
+      {
+        "id": "rev-006-oneoff",
+        "customerId": "customer-006",
+        "recognitionDate": "2026-09-18",
+        "amount": {
+          "amount": 2500,
+          "currency": "GBP"
+        },
+        "category": "OneOff",
+        "description": "One-off card network certification fee"
+      },
+      {
+        "id": "rev-007-2025-10-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2025-10-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2025-11-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2025-11-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2025-12-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2025-12-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2026-01-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2026-01-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2026-02-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2026-02-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2026-03-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2026-03-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2026-04-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2026-04-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2026-05-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2026-05-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2026-06-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2026-06-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2026-07-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2026-07-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2026-08-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2026-08-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2026-09-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2026-09-01",
+        "amount": {
+          "amount": 48000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2026-10-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2026-10-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-2026-11-01",
+        "customerId": "customer-007",
+        "recognitionDate": "2026-11-01",
+        "amount": {
+          "amount": 42000,
+          "currency": "USD"
+        },
+        "category": "Recurring",
+        "description": "Recognized stored-card wallet revenue"
+      },
+      {
+        "id": "rev-007-oneoff",
+        "customerId": "customer-007",
+        "recognitionDate": "2026-09-12",
+        "amount": {
+          "amount": 6000,
+          "currency": "USD"
+        },
+        "category": "OneOff",
+        "description": "One-off card network certification fee"
+      },
+      {
+        "id": "rev-008-2025-10-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2025-10-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2025-11-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2025-11-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2025-12-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2025-12-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2026-01-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2026-01-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2026-02-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2026-02-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2026-03-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2026-03-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2026-04-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2026-04-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2026-05-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2026-05-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2026-06-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2026-06-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2026-07-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2026-07-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2026-08-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2026-08-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2026-09-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2026-09-01",
+        "amount": {
+          "amount": 36000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2026-10-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2026-10-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-2026-11-01",
+        "customerId": "customer-008",
+        "recognitionDate": "2026-11-01",
+        "amount": {
+          "amount": 31000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized platform checkout revenue"
+      },
+      {
+        "id": "rev-008-oneoff",
+        "customerId": "customer-008",
+        "recognitionDate": "2026-09-14",
+        "amount": {
+          "amount": 4500,
+          "currency": "EUR"
+        },
+        "category": "OneOff",
+        "description": "One-off card network certification fee"
+      },
+      {
+        "id": "rev-009-2025-10-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2025-10-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2025-11-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2025-11-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2025-12-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2025-12-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2026-01-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2026-01-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2026-02-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2026-02-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2026-03-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2026-03-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2026-04-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2026-04-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2026-05-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2026-05-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2026-06-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2026-06-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2026-07-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2026-07-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2026-08-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2026-08-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2026-09-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2026-09-01",
+        "amount": {
+          "amount": 26000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2026-10-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2026-10-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-2026-11-01",
+        "customerId": "customer-009",
+        "recognitionDate": "2026-11-01",
+        "amount": {
+          "amount": 22000,
+          "currency": "EUR"
+        },
+        "category": "Recurring",
+        "description": "Recognized marketplace checkout revenue"
+      },
+      {
+        "id": "rev-009-oneoff",
+        "customerId": "customer-009",
+        "recognitionDate": "2026-09-19",
+        "amount": {
+          "amount": 1800,
+          "currency": "EUR"
+        },
+        "category": "OneOff",
+        "description": "One-off card network certification fee"
+      }
+    ],
+    "usageRecords": [
+      {
+        "id": "usage-2025-10",
+        "customerId": "customer-001",
+        "periodStart": "2025-10-01",
+        "periodEndExclusive": "2025-11-01",
+        "featureId": "feature-analytics",
+        "unit": "ApiCall",
+        "quantity": 100000,
+        "entitlement": 200000,
+        "activeUserIds": [
+          "user-demo-01"
+        ]
+      },
+      {
+        "id": "usage-2025-11",
+        "customerId": "customer-001",
+        "periodStart": "2025-11-01",
+        "periodEndExclusive": "2025-12-01",
+        "featureId": "feature-analytics",
+        "unit": "ApiCall",
+        "quantity": 100000,
+        "entitlement": 200000,
+        "activeUserIds": [
+          "user-demo-01"
+        ]
+      },
+      {
+        "id": "usage-2025-12",
+        "customerId": "customer-001",
+        "periodStart": "2025-12-01",
+        "periodEndExclusive": "2026-01-01",
+        "featureId": "feature-analytics",
+        "unit": "ApiCall",
+        "quantity": 100000,
+        "entitlement": 200000,
+        "activeUserIds": [
+          "user-demo-01"
+        ]
+      },
+      {
+        "id": "usage-2026-01",
+        "customerId": "customer-001",
+        "periodStart": "2026-01-01",
+        "periodEndExclusive": "2026-02-01",
+        "featureId": "feature-analytics",
+        "unit": "ApiCall",
+        "quantity": 100000,
+        "entitlement": 200000,
+        "activeUserIds": [
+          "user-demo-01"
+        ]
+      },
+      {
+        "id": "usage-2026-02",
+        "customerId": "customer-001",
+        "periodStart": "2026-02-01",
+        "periodEndExclusive": "2026-03-01",
+        "featureId": "feature-analytics",
+        "unit": "ApiCall",
+        "quantity": 100000,
+        "entitlement": 200000,
+        "activeUserIds": [
+          "user-demo-01"
+        ]
+      },
+      {
+        "id": "usage-2026-03",
+        "customerId": "customer-001",
+        "periodStart": "2026-03-01",
+        "periodEndExclusive": "2026-04-01",
+        "featureId": "feature-analytics",
+        "unit": "ApiCall",
+        "quantity": 100000,
+        "entitlement": 200000,
+        "activeUserIds": [
+          "user-demo-01"
+        ]
+      },
+      {
+        "id": "usage-2026-04",
+        "customerId": "customer-001",
+        "periodStart": "2026-04-01",
+        "periodEndExclusive": "2026-05-01",
+        "featureId": "feature-analytics",
+        "unit": "ApiCall",
+        "quantity": 100000,
+        "entitlement": 200000,
+        "activeUserIds": [
+          "user-demo-01"
+        ]
+      },
+      {
+        "id": "usage-2026-05",
+        "customerId": "customer-001",
+        "periodStart": "2026-05-01",
+        "periodEndExclusive": "2026-06-01",
+        "featureId": "feature-analytics",
+        "unit": "ApiCall",
+        "quantity": 100000,
+        "entitlement": 200000,
+        "activeUserIds": [
+          "user-demo-01"
+        ]
+      },
+      {
+        "id": "usage-2026-06",
+        "customerId": "customer-001",
+        "periodStart": "2026-06-01",
+        "periodEndExclusive": "2026-07-01",
+        "featureId": "feature-analytics",
+        "unit": "ApiCall",
+        "quantity": 100000,
+        "entitlement": 200000,
+        "activeUserIds": [
+          "user-demo-01"
+        ]
+      },
+      {
+        "id": "usage-2026-07",
+        "customerId": "customer-001",
+        "periodStart": "2026-07-01",
+        "periodEndExclusive": "2026-08-01",
+        "featureId": "feature-analytics",
+        "unit": "ApiCall",
+        "quantity": 100000,
+        "entitlement": 200000,
+        "activeUserIds": [
+          "user-demo-01"
+        ]
+      },
+      {
+        "id": "usage-2026-08",
+        "customerId": "customer-001",
+        "periodStart": "2026-08-01",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-analytics",
+        "unit": "ApiCall",
+        "quantity": 100000,
+        "entitlement": 200000,
+        "activeUserIds": [
+          "user-demo-01"
+        ]
+      },
+      {
+        "id": "usage-001",
+        "customerId": "customer-001",
+        "periodStart": "2026-09-01",
+        "periodEndExclusive": "2026-10-01",
+        "featureId": "feature-analytics",
+        "unit": "ApiCall",
+        "quantity": 125000,
+        "entitlement": 200000,
+        "activeUserIds": [
+          "user-demo-01",
+          "user-demo-02"
+        ]
+      },
+      {
+        "id": "usage-zero",
+        "customerId": "customer-002",
+        "periodStart": "2026-09-01",
+        "periodEndExclusive": "2026-10-01",
+        "featureId": "feature-harbor",
+        "unit": "ApiCall",
+        "quantity": 0,
+        "entitlement": 1000,
+        "activeUserIds": []
+      },
+      {
+        "id": "usage-harbor-aug",
+        "customerId": "customer-002",
+        "periodStart": "2026-08-01",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-harbor",
+        "unit": "ApiCall",
+        "quantity": 50,
+        "entitlement": 100,
+        "activeUserIds": [
+          "user-harbor-01"
+        ]
+      },
+      {
+        "id": "usage-004-2025-10-01",
+        "customerId": "customer-004",
+        "periodStart": "2025-10-01",
+        "periodEndExclusive": "2025-11-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2025-11-01",
+        "customerId": "customer-004",
+        "periodStart": "2025-11-01",
+        "periodEndExclusive": "2025-12-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2025-12-01",
+        "customerId": "customer-004",
+        "periodStart": "2025-12-01",
+        "periodEndExclusive": "2026-01-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2026-01-01",
+        "customerId": "customer-004",
+        "periodStart": "2026-01-01",
+        "periodEndExclusive": "2026-02-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2026-02-01",
+        "customerId": "customer-004",
+        "periodStart": "2026-02-01",
+        "periodEndExclusive": "2026-03-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2026-03-01",
+        "customerId": "customer-004",
+        "periodStart": "2026-03-01",
+        "periodEndExclusive": "2026-04-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2026-04-01",
+        "customerId": "customer-004",
+        "periodStart": "2026-04-01",
+        "periodEndExclusive": "2026-05-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2026-05-01",
+        "customerId": "customer-004",
+        "periodStart": "2026-05-01",
+        "periodEndExclusive": "2026-06-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2026-06-01",
+        "customerId": "customer-004",
+        "periodStart": "2026-06-01",
+        "periodEndExclusive": "2026-07-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2026-07-01",
+        "customerId": "customer-004",
+        "periodStart": "2026-07-01",
+        "periodEndExclusive": "2026-08-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2026-08-01",
+        "customerId": "customer-004",
+        "periodStart": "2026-08-01",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2026-09-01",
+        "customerId": "customer-004",
+        "periodStart": "2026-09-01",
+        "periodEndExclusive": "2026-10-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1400000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2026-10-01",
+        "customerId": "customer-004",
+        "periodStart": "2026-10-01",
+        "periodEndExclusive": "2026-11-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-2026-11-01",
+        "customerId": "customer-004",
+        "periodStart": "2026-11-01",
+        "periodEndExclusive": "2026-12-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01",
+          "user-004-02"
+        ]
+      },
+      {
+        "id": "usage-004-baseline",
+        "customerId": "customer-004",
+        "periodStart": "2026-08-02",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-004-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1200000,
+        "entitlement": 2000000,
+        "activeUserIds": [
+          "user-004-01"
+        ]
+      },
+      {
+        "id": "usage-005-2025-10-01",
+        "customerId": "customer-005",
+        "periodStart": "2025-10-01",
+        "periodEndExclusive": "2025-11-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2025-11-01",
+        "customerId": "customer-005",
+        "periodStart": "2025-11-01",
+        "periodEndExclusive": "2025-12-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2025-12-01",
+        "customerId": "customer-005",
+        "periodStart": "2025-12-01",
+        "periodEndExclusive": "2026-01-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2026-01-01",
+        "customerId": "customer-005",
+        "periodStart": "2026-01-01",
+        "periodEndExclusive": "2026-02-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2026-02-01",
+        "customerId": "customer-005",
+        "periodStart": "2026-02-01",
+        "periodEndExclusive": "2026-03-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2026-03-01",
+        "customerId": "customer-005",
+        "periodStart": "2026-03-01",
+        "periodEndExclusive": "2026-04-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2026-04-01",
+        "customerId": "customer-005",
+        "periodStart": "2026-04-01",
+        "periodEndExclusive": "2026-05-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2026-05-01",
+        "customerId": "customer-005",
+        "periodStart": "2026-05-01",
+        "periodEndExclusive": "2026-06-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2026-06-01",
+        "customerId": "customer-005",
+        "periodStart": "2026-06-01",
+        "periodEndExclusive": "2026-07-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2026-07-01",
+        "customerId": "customer-005",
+        "periodStart": "2026-07-01",
+        "periodEndExclusive": "2026-08-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2026-08-01",
+        "customerId": "customer-005",
+        "periodStart": "2026-08-01",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2026-09-01",
+        "customerId": "customer-005",
+        "periodStart": "2026-09-01",
+        "periodEndExclusive": "2026-10-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 2100000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2026-10-01",
+        "customerId": "customer-005",
+        "periodStart": "2026-10-01",
+        "periodEndExclusive": "2026-11-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-2026-11-01",
+        "customerId": "customer-005",
+        "periodStart": "2026-11-01",
+        "periodEndExclusive": "2026-12-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01",
+          "user-005-02"
+        ]
+      },
+      {
+        "id": "usage-005-baseline",
+        "customerId": "customer-005",
+        "periodStart": "2026-08-02",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-005-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1900000,
+        "entitlement": 3000000,
+        "activeUserIds": [
+          "user-005-01"
+        ]
+      },
+      {
+        "id": "usage-006-2025-10-01",
+        "customerId": "customer-006",
+        "periodStart": "2025-10-01",
+        "periodEndExclusive": "2025-11-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2025-11-01",
+        "customerId": "customer-006",
+        "periodStart": "2025-11-01",
+        "periodEndExclusive": "2025-12-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2025-12-01",
+        "customerId": "customer-006",
+        "periodStart": "2025-12-01",
+        "periodEndExclusive": "2026-01-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2026-01-01",
+        "customerId": "customer-006",
+        "periodStart": "2026-01-01",
+        "periodEndExclusive": "2026-02-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2026-02-01",
+        "customerId": "customer-006",
+        "periodStart": "2026-02-01",
+        "periodEndExclusive": "2026-03-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2026-03-01",
+        "customerId": "customer-006",
+        "periodStart": "2026-03-01",
+        "periodEndExclusive": "2026-04-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2026-04-01",
+        "customerId": "customer-006",
+        "periodStart": "2026-04-01",
+        "periodEndExclusive": "2026-05-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2026-05-01",
+        "customerId": "customer-006",
+        "periodStart": "2026-05-01",
+        "periodEndExclusive": "2026-06-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2026-06-01",
+        "customerId": "customer-006",
+        "periodStart": "2026-06-01",
+        "periodEndExclusive": "2026-07-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2026-07-01",
+        "customerId": "customer-006",
+        "periodStart": "2026-07-01",
+        "periodEndExclusive": "2026-08-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2026-08-01",
+        "customerId": "customer-006",
+        "periodStart": "2026-08-01",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2026-09-01",
+        "customerId": "customer-006",
+        "periodStart": "2026-09-01",
+        "periodEndExclusive": "2026-10-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 640000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2026-10-01",
+        "customerId": "customer-006",
+        "periodStart": "2026-10-01",
+        "periodEndExclusive": "2026-11-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-2026-11-01",
+        "customerId": "customer-006",
+        "periodStart": "2026-11-01",
+        "periodEndExclusive": "2026-12-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01",
+          "user-006-02"
+        ]
+      },
+      {
+        "id": "usage-006-baseline",
+        "customerId": "customer-006",
+        "periodStart": "2026-08-02",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-006-auth",
+        "unit": "CardAuthorization",
+        "quantity": 580000,
+        "entitlement": 1000000,
+        "activeUserIds": [
+          "user-006-01"
+        ]
+      },
+      {
+        "id": "usage-007-2025-10-01",
+        "customerId": "customer-007",
+        "periodStart": "2025-10-01",
+        "periodEndExclusive": "2025-11-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2025-11-01",
+        "customerId": "customer-007",
+        "periodStart": "2025-11-01",
+        "periodEndExclusive": "2025-12-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2025-12-01",
+        "customerId": "customer-007",
+        "periodStart": "2025-12-01",
+        "periodEndExclusive": "2026-01-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2026-01-01",
+        "customerId": "customer-007",
+        "periodStart": "2026-01-01",
+        "periodEndExclusive": "2026-02-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2026-02-01",
+        "customerId": "customer-007",
+        "periodStart": "2026-02-01",
+        "periodEndExclusive": "2026-03-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2026-03-01",
+        "customerId": "customer-007",
+        "periodStart": "2026-03-01",
+        "periodEndExclusive": "2026-04-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2026-04-01",
+        "customerId": "customer-007",
+        "periodStart": "2026-04-01",
+        "periodEndExclusive": "2026-05-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2026-05-01",
+        "customerId": "customer-007",
+        "periodStart": "2026-05-01",
+        "periodEndExclusive": "2026-06-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2026-06-01",
+        "customerId": "customer-007",
+        "periodStart": "2026-06-01",
+        "periodEndExclusive": "2026-07-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2026-07-01",
+        "customerId": "customer-007",
+        "periodStart": "2026-07-01",
+        "periodEndExclusive": "2026-08-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2026-08-01",
+        "customerId": "customer-007",
+        "periodStart": "2026-08-01",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2026-09-01",
+        "customerId": "customer-007",
+        "periodStart": "2026-09-01",
+        "periodEndExclusive": "2026-10-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3400000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2026-10-01",
+        "customerId": "customer-007",
+        "periodStart": "2026-10-01",
+        "periodEndExclusive": "2026-11-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-2026-11-01",
+        "customerId": "customer-007",
+        "periodStart": "2026-11-01",
+        "periodEndExclusive": "2026-12-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01",
+          "user-007-02"
+        ]
+      },
+      {
+        "id": "usage-007-baseline",
+        "customerId": "customer-007",
+        "periodStart": "2026-08-02",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-007-auth",
+        "unit": "CardAuthorization",
+        "quantity": 3000000,
+        "entitlement": 5000000,
+        "activeUserIds": [
+          "user-007-01"
+        ]
+      },
+      {
+        "id": "usage-008-2025-10-01",
+        "customerId": "customer-008",
+        "periodStart": "2025-10-01",
+        "periodEndExclusive": "2025-11-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2025-11-01",
+        "customerId": "customer-008",
+        "periodStart": "2025-11-01",
+        "periodEndExclusive": "2025-12-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2025-12-01",
+        "customerId": "customer-008",
+        "periodStart": "2025-12-01",
+        "periodEndExclusive": "2026-01-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2026-01-01",
+        "customerId": "customer-008",
+        "periodStart": "2026-01-01",
+        "periodEndExclusive": "2026-02-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2026-02-01",
+        "customerId": "customer-008",
+        "periodStart": "2026-02-01",
+        "periodEndExclusive": "2026-03-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2026-03-01",
+        "customerId": "customer-008",
+        "periodStart": "2026-03-01",
+        "periodEndExclusive": "2026-04-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2026-04-01",
+        "customerId": "customer-008",
+        "periodStart": "2026-04-01",
+        "periodEndExclusive": "2026-05-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2026-05-01",
+        "customerId": "customer-008",
+        "periodStart": "2026-05-01",
+        "periodEndExclusive": "2026-06-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2026-06-01",
+        "customerId": "customer-008",
+        "periodStart": "2026-06-01",
+        "periodEndExclusive": "2026-07-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2026-07-01",
+        "customerId": "customer-008",
+        "periodStart": "2026-07-01",
+        "periodEndExclusive": "2026-08-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2026-08-01",
+        "customerId": "customer-008",
+        "periodStart": "2026-08-01",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2026-09-01",
+        "customerId": "customer-008",
+        "periodStart": "2026-09-01",
+        "periodEndExclusive": "2026-10-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1800000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2026-10-01",
+        "customerId": "customer-008",
+        "periodStart": "2026-10-01",
+        "periodEndExclusive": "2026-11-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-2026-11-01",
+        "customerId": "customer-008",
+        "periodStart": "2026-11-01",
+        "periodEndExclusive": "2026-12-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01",
+          "user-008-02"
+        ]
+      },
+      {
+        "id": "usage-008-baseline",
+        "customerId": "customer-008",
+        "periodStart": "2026-08-02",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-008-auth",
+        "unit": "CardAuthorization",
+        "quantity": 1550000,
+        "entitlement": 2500000,
+        "activeUserIds": [
+          "user-008-01"
+        ]
+      },
+      {
+        "id": "usage-009-2025-10-01",
+        "customerId": "customer-009",
+        "periodStart": "2025-10-01",
+        "periodEndExclusive": "2025-11-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2025-11-01",
+        "customerId": "customer-009",
+        "periodStart": "2025-11-01",
+        "periodEndExclusive": "2025-12-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2025-12-01",
+        "customerId": "customer-009",
+        "periodStart": "2025-12-01",
+        "periodEndExclusive": "2026-01-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2026-01-01",
+        "customerId": "customer-009",
+        "periodStart": "2026-01-01",
+        "periodEndExclusive": "2026-02-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2026-02-01",
+        "customerId": "customer-009",
+        "periodStart": "2026-02-01",
+        "periodEndExclusive": "2026-03-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2026-03-01",
+        "customerId": "customer-009",
+        "periodStart": "2026-03-01",
+        "periodEndExclusive": "2026-04-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2026-04-01",
+        "customerId": "customer-009",
+        "periodStart": "2026-04-01",
+        "periodEndExclusive": "2026-05-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2026-05-01",
+        "customerId": "customer-009",
+        "periodStart": "2026-05-01",
+        "periodEndExclusive": "2026-06-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2026-06-01",
+        "customerId": "customer-009",
+        "periodStart": "2026-06-01",
+        "periodEndExclusive": "2026-07-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2026-07-01",
+        "customerId": "customer-009",
+        "periodStart": "2026-07-01",
+        "periodEndExclusive": "2026-08-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2026-08-01",
+        "customerId": "customer-009",
+        "periodStart": "2026-08-01",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2026-09-01",
+        "customerId": "customer-009",
+        "periodStart": "2026-09-01",
+        "periodEndExclusive": "2026-10-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 980000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2026-10-01",
+        "customerId": "customer-009",
+        "periodStart": "2026-10-01",
+        "periodEndExclusive": "2026-11-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-2026-11-01",
+        "customerId": "customer-009",
+        "periodStart": "2026-11-01",
+        "periodEndExclusive": "2026-12-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01",
+          "user-009-02"
+        ]
+      },
+      {
+        "id": "usage-009-baseline",
+        "customerId": "customer-009",
+        "periodStart": "2026-08-02",
+        "periodEndExclusive": "2026-09-01",
+        "featureId": "feature-009-auth",
+        "unit": "CardAuthorization",
+        "quantity": 900000,
+        "entitlement": 1500000,
+        "activeUserIds": [
+          "user-009-01"
+        ]
+      }
+    ],
+    "slaObjectives": [
+      {
+        "id": "sla-response",
+        "customerId": "customer-001",
+        "name": "Priority 1 response",
+        "kind": "ResponseTime",
+        "thresholdMinutes": 60,
+        "targetCompliancePercent": 99.5
+      },
+      {
+        "id": "sla-harbor",
+        "customerId": "customer-002",
+        "name": "Harborline response",
+        "kind": "ResponseTime",
+        "thresholdMinutes": 60,
+        "targetCompliancePercent": 99
+      },
+      {
+        "id": "sla-004-response",
+        "customerId": "customer-004",
+        "name": "Card authorization response",
+        "kind": "ResponseTime",
+        "thresholdMinutes": 30,
+        "targetCompliancePercent": 99.5
+      },
+      {
+        "id": "sla-004-resolve",
+        "customerId": "customer-004",
+        "name": "Settlement incident resolution",
+        "kind": "ResolutionTime",
+        "thresholdMinutes": 240,
+        "targetCompliancePercent": 95
+      },
+      {
+        "id": "sla-005-response",
+        "customerId": "customer-005",
+        "name": "Card authorization response",
+        "kind": "ResponseTime",
+        "thresholdMinutes": 30,
+        "targetCompliancePercent": 99.5
+      },
+      {
+        "id": "sla-005-resolve",
+        "customerId": "customer-005",
+        "name": "Settlement incident resolution",
+        "kind": "ResolutionTime",
+        "thresholdMinutes": 240,
+        "targetCompliancePercent": 95
+      },
+      {
+        "id": "sla-006-response",
+        "customerId": "customer-006",
+        "name": "Card authorization response",
+        "kind": "ResponseTime",
+        "thresholdMinutes": 30,
+        "targetCompliancePercent": 99.5
+      },
+      {
+        "id": "sla-006-resolve",
+        "customerId": "customer-006",
+        "name": "Settlement incident resolution",
+        "kind": "ResolutionTime",
+        "thresholdMinutes": 240,
+        "targetCompliancePercent": 95
+      },
+      {
+        "id": "sla-007-response",
+        "customerId": "customer-007",
+        "name": "Card authorization response",
+        "kind": "ResponseTime",
+        "thresholdMinutes": 30,
+        "targetCompliancePercent": 99.5
+      },
+      {
+        "id": "sla-007-resolve",
+        "customerId": "customer-007",
+        "name": "Settlement incident resolution",
+        "kind": "ResolutionTime",
+        "thresholdMinutes": 240,
+        "targetCompliancePercent": 95
+      },
+      {
+        "id": "sla-008-response",
+        "customerId": "customer-008",
+        "name": "Card authorization response",
+        "kind": "ResponseTime",
+        "thresholdMinutes": 30,
+        "targetCompliancePercent": 99.5
+      },
+      {
+        "id": "sla-008-resolve",
+        "customerId": "customer-008",
+        "name": "Settlement incident resolution",
+        "kind": "ResolutionTime",
+        "thresholdMinutes": 240,
+        "targetCompliancePercent": 95
+      },
+      {
+        "id": "sla-009-response",
+        "customerId": "customer-009",
+        "name": "Card authorization response",
+        "kind": "ResponseTime",
+        "thresholdMinutes": 30,
+        "targetCompliancePercent": 99.5
+      },
+      {
+        "id": "sla-009-resolve",
+        "customerId": "customer-009",
+        "name": "Settlement incident resolution",
+        "kind": "ResolutionTime",
+        "thresholdMinutes": 240,
+        "targetCompliancePercent": 95
+      }
+    ],
+    "slaEvents": [
+      {
+        "id": "sla-event-001",
+        "customerId": "customer-001",
+        "objectiveId": "sla-response",
+        "occurredAtUtc": "2026-09-20T10:00:00Z",
+        "actualMinutes": 45,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-harbor",
+        "customerId": "customer-002",
+        "objectiveId": "sla-harbor",
+        "occurredAtUtc": "2026-09-18T15:00:00Z",
+        "actualMinutes": 120,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-004-met",
+        "customerId": "customer-004",
+        "objectiveId": "sla-004-response",
+        "occurredAtUtc": "2026-09-11T09:15:00Z",
+        "actualMinutes": 18,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-004-resolved",
+        "customerId": "customer-004",
+        "objectiveId": "sla-004-resolve",
+        "occurredAtUtc": "2026-09-19T14:00:00Z",
+        "actualMinutes": 150,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-004-excluded",
+        "customerId": "customer-004",
+        "objectiveId": "sla-004-response",
+        "occurredAtUtc": "2026-09-21T02:00:00Z",
+        "actualMinutes": 90,
+        "eligible": false,
+        "exclusionReason": "Planned acquiring maintenance window"
+      },
+      {
+        "id": "sla-event-005-met",
+        "customerId": "customer-005",
+        "objectiveId": "sla-005-response",
+        "occurredAtUtc": "2026-09-11T09:15:00Z",
+        "actualMinutes": 18,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-005-resolved",
+        "customerId": "customer-005",
+        "objectiveId": "sla-005-resolve",
+        "occurredAtUtc": "2026-09-19T14:00:00Z",
+        "actualMinutes": 150,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-005-excluded",
+        "customerId": "customer-005",
+        "objectiveId": "sla-005-response",
+        "occurredAtUtc": "2026-09-21T02:00:00Z",
+        "actualMinutes": 90,
+        "eligible": false,
+        "exclusionReason": "Planned acquiring maintenance window"
+      },
+      {
+        "id": "sla-event-006-met",
+        "customerId": "customer-006",
+        "objectiveId": "sla-006-response",
+        "occurredAtUtc": "2026-09-11T09:15:00Z",
+        "actualMinutes": 18,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-006-resolved",
+        "customerId": "customer-006",
+        "objectiveId": "sla-006-resolve",
+        "occurredAtUtc": "2026-09-19T14:00:00Z",
+        "actualMinutes": 150,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-006-excluded",
+        "customerId": "customer-006",
+        "objectiveId": "sla-006-response",
+        "occurredAtUtc": "2026-09-21T02:00:00Z",
+        "actualMinutes": 90,
+        "eligible": false,
+        "exclusionReason": "Planned acquiring maintenance window"
+      },
+      {
+        "id": "sla-event-007-met",
+        "customerId": "customer-007",
+        "objectiveId": "sla-007-response",
+        "occurredAtUtc": "2026-09-11T09:15:00Z",
+        "actualMinutes": 18,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-007-resolved",
+        "customerId": "customer-007",
+        "objectiveId": "sla-007-resolve",
+        "occurredAtUtc": "2026-09-19T14:00:00Z",
+        "actualMinutes": 150,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-007-excluded",
+        "customerId": "customer-007",
+        "objectiveId": "sla-007-response",
+        "occurredAtUtc": "2026-09-21T02:00:00Z",
+        "actualMinutes": 90,
+        "eligible": false,
+        "exclusionReason": "Planned acquiring maintenance window"
+      },
+      {
+        "id": "sla-event-008-met",
+        "customerId": "customer-008",
+        "objectiveId": "sla-008-response",
+        "occurredAtUtc": "2026-09-11T09:15:00Z",
+        "actualMinutes": 18,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-008-resolved",
+        "customerId": "customer-008",
+        "objectiveId": "sla-008-resolve",
+        "occurredAtUtc": "2026-09-19T14:00:00Z",
+        "actualMinutes": 150,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-008-excluded",
+        "customerId": "customer-008",
+        "objectiveId": "sla-008-response",
+        "occurredAtUtc": "2026-09-21T02:00:00Z",
+        "actualMinutes": 90,
+        "eligible": false,
+        "exclusionReason": "Planned acquiring maintenance window"
+      },
+      {
+        "id": "sla-event-009-met",
+        "customerId": "customer-009",
+        "objectiveId": "sla-009-response",
+        "occurredAtUtc": "2026-09-11T09:15:00Z",
+        "actualMinutes": 18,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-009-resolved",
+        "customerId": "customer-009",
+        "objectiveId": "sla-009-resolve",
+        "occurredAtUtc": "2026-09-19T14:00:00Z",
+        "actualMinutes": 150,
+        "eligible": true,
+        "exclusionReason": null
+      },
+      {
+        "id": "sla-event-009-excluded",
+        "customerId": "customer-009",
+        "objectiveId": "sla-009-response",
+        "occurredAtUtc": "2026-09-21T02:00:00Z",
+        "actualMinutes": 90,
+        "eligible": false,
+        "exclusionReason": "Planned acquiring maintenance window"
+      }
+    ],
+    "laborRates": [
+      {
+        "id": "rate-001",
+        "workerId": "worker-001",
+        "validFrom": "2025-01-01",
+        "validToExclusive": "2027-01-01",
+        "hourlyRate": {
+          "amount": 80,
+          "currency": "EUR"
+        }
+      },
+      {
+        "id": "rate-004",
+        "workerId": "worker-004",
+        "validFrom": "2025-01-01",
+        "validToExclusive": "2027-01-01",
+        "hourlyRate": {
+          "amount": 90,
+          "currency": "EUR"
+        }
+      },
+      {
+        "id": "rate-005",
+        "workerId": "worker-005",
+        "validFrom": "2025-01-01",
+        "validToExclusive": "2027-01-01",
+        "hourlyRate": {
+          "amount": 110,
+          "currency": "USD"
+        }
+      },
+      {
+        "id": "rate-006",
+        "workerId": "worker-006",
+        "validFrom": "2025-01-01",
+        "validToExclusive": "2027-01-01",
+        "hourlyRate": {
+          "amount": 85,
+          "currency": "GBP"
+        }
+      },
+      {
+        "id": "rate-007",
+        "workerId": "worker-007",
+        "validFrom": "2025-01-01",
+        "validToExclusive": "2027-01-01",
+        "hourlyRate": {
+          "amount": 125,
+          "currency": "USD"
+        }
+      },
+      {
+        "id": "rate-008",
+        "workerId": "worker-008",
+        "validFrom": "2025-01-01",
+        "validToExclusive": "2027-01-01",
+        "hourlyRate": {
+          "amount": 95,
+          "currency": "EUR"
+        }
+      },
+      {
+        "id": "rate-009",
+        "workerId": "worker-009",
+        "validFrom": "2025-01-01",
+        "validToExclusive": "2027-01-01",
+        "hourlyRate": {
+          "amount": 88,
+          "currency": "EUR"
+        }
+      }
+    ],
+    "externalCosts": [
+      {
+        "id": "cost-001",
+        "customerId": "customer-001",
+        "featureId": "feature-analytics",
+        "incurredDate": "2026-09-21",
+        "amount": {
+          "amount": 250,
+          "currency": "EUR"
+        },
+        "description": "Approved test environment cost"
+      },
+      {
+        "id": "cost-004",
+        "customerId": "customer-004",
+        "featureId": "feature-004-settle",
+        "incurredDate": "2026-09-16",
+        "amount": {
+          "amount": 400,
+          "currency": "EUR"
+        },
+        "description": "Approved card scheme test-lab charge"
+      },
+      {
+        "id": "cost-005",
+        "customerId": "customer-005",
+        "featureId": "feature-005-settle",
+        "incurredDate": "2026-09-16",
+        "amount": {
+          "amount": 400,
+          "currency": "USD"
+        },
+        "description": "Approved card scheme test-lab charge"
+      },
+      {
+        "id": "cost-006",
+        "customerId": "customer-006",
+        "featureId": "feature-006-settle",
+        "incurredDate": "2026-09-16",
+        "amount": {
+          "amount": 400,
+          "currency": "GBP"
+        },
+        "description": "Approved card scheme test-lab charge"
+      },
+      {
+        "id": "cost-007",
+        "customerId": "customer-007",
+        "featureId": "feature-007-settle",
+        "incurredDate": "2026-09-16",
+        "amount": {
+          "amount": 400,
+          "currency": "USD"
+        },
+        "description": "Approved card scheme test-lab charge"
+      },
+      {
+        "id": "cost-008",
+        "customerId": "customer-008",
+        "featureId": "feature-008-settle",
+        "incurredDate": "2026-09-16",
+        "amount": {
+          "amount": 400,
+          "currency": "EUR"
+        },
+        "description": "Approved card scheme test-lab charge"
+      },
+      {
+        "id": "cost-009",
+        "customerId": "customer-009",
+        "featureId": "feature-009-settle",
+        "incurredDate": "2026-09-16",
+        "amount": {
+          "amount": 400,
+          "currency": "EUR"
+        },
+        "description": "Approved card scheme test-lab charge"
+      }
+    ]
+  }
+}

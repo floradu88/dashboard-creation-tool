@@ -1,0 +1,8 @@
+---
+description: Angular UI responsibilities and validation
+globs: "src/customer-dashboard-ui/**/*"
+alwaysApply: false
+---
+
+Read and follow `src/customer-dashboard-ui/AGENTS.md` and its ancestor `AGENTS.md` files before editing matched files. These shared files define scope, dependency boundaries, data rules and validation expectations.
+

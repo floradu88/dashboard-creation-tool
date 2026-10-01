@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CustomerDashboard.Domain/CustomerDashboard.Domain.csproj" />
+    <Project Path="src/CustomerDashboard.Application/CustomerDashboard.Application.csproj" />
+    <Project Path="src/CustomerDashboard.Infrastructure/CustomerDashboard.Infrastructure.csproj" />
+    <Project Path="src/CustomerDashboard.Api/CustomerDashboard.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CustomerDashboard.UnitTests/CustomerDashboard.UnitTests.csproj" />
+    <Project Path="tests/CustomerDashboard.ApiTests/CustomerDashboard.ApiTests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "source": "Slack",
+  "mode": "Mock",
+  "lastSuccessfulExtractionAtUtc": "2026-09-29T08:00:00Z",
+  "dataThroughUtc": "2026-09-29T07:55:00Z",
+  "data": {
+    "channels": [
+      {
+        "id": "slack-channel-001",
+        "customerId": "customer-001",
+        "name": "northstar-demo-account"
+      },
+      {
+        "id": "slack-channel-002",
+        "customerId": "customer-002",
+        "name": "harborline-sample-account"
+      },
+      {
+        "id": "slack-channel-004",
+        "customerId": "customer-004",
+        "name": "lumen-checkout-account"
+      },
+      {
+        "id": "slack-channel-005",
+        "customerId": "customer-005",
+        "name": "nimbus-pay-account"
+      },
+      {
+        "id": "slack-channel-006",
+        "customerId": "customer-006",
+        "name": "quay-ledger-account"
+      },
+      {
+        "id": "slack-channel-007",
+        "customerId": "customer-007",
+        "name": "halcyon-wallet-account"
+      },
+      {
+        "id": "slack-channel-008",
+        "customerId": "customer-008",
+        "name": "plexa-checkout-account"
+      },
+      {
+        "id": "slack-channel-009",
+        "customerId": "customer-009",
+        "name": "brindle-commerce-account"
+      }
+    ],
+    "messages": [
+      {
+        "id": "slack-message-001",
+        "customerId": "customer-001",
+        "channelId": "slack-channel-001",
+        "sentAtUtc": "2026-09-25T10:00:00Z",
+        "threadRootId": null,
+        "authorDisplayName": "Demo Account Team",
+        "text": "Fictional note: review analytics expansion requirements.",
+        "canonicalRequestIds": [
+          "request-001"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-001/p001"
+      },
+      {
+        "id": "slack-message-002",
+        "customerId": "customer-002",
+        "channelId": "slack-channel-002",
+        "sentAtUtc": "2026-09-18T16:00:00Z",
+        "threadRootId": null,
+        "authorDisplayName": "Sample Account Team",
+        "text": "Fictional note: the response target was missed.",
+        "canonicalRequestIds": [
+          "request-002"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-002/p002"
+      },
+      {
+        "id": "slack-message-004",
+        "customerId": "customer-004",
+        "channelId": "slack-channel-004",
+        "sentAtUtc": "2026-09-26T11:00:00Z",
+        "threadRootId": null,
+        "authorDisplayName": "Example Account Team",
+        "text": "Fictional note: review the online card authorization approval rate before the quarterly review.",
+        "canonicalRequestIds": [
+          "request-004-rfp"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-004/p004"
+      },
+      {
+        "id": "slack-message-004-reply",
+        "customerId": "customer-004",
+        "channelId": "slack-channel-004",
+        "sentAtUtc": "2026-09-26T11:20:00Z",
+        "threadRootId": "slack-message-004",
+        "authorDisplayName": "Mina Example",
+        "text": "Fictional reply: settlement file timing is still open.",
+        "canonicalRequestIds": [
+          "request-004-support"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-004/p004b"
+      },
+      {
+        "id": "slack-message-005",
+        "customerId": "customer-005",
+        "channelId": "slack-channel-005",
+        "sentAtUtc": "2026-09-26T11:00:00Z",
+        "threadRootId": null,
+        "authorDisplayName": "Example Account Team",
+        "text": "Fictional note: review the online card authorization approval rate before the quarterly review.",
+        "canonicalRequestIds": [
+          "request-005-rfp"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-005/p005"
+      },
+      {
+        "id": "slack-message-005-reply",
+        "customerId": "customer-005",
+        "channelId": "slack-channel-005",
+        "sentAtUtc": "2026-09-26T11:20:00Z",
+        "threadRootId": "slack-message-005",
+        "authorDisplayName": "Parker Example",
+        "text": "Fictional reply: settlement file timing is still open.",
+        "canonicalRequestIds": [
+          "request-005-support"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-005/p005b"
+      },
+      {
+        "id": "slack-message-006",
+        "customerId": "customer-006",
+        "channelId": "slack-channel-006",
+        "sentAtUtc": "2026-09-26T11:00:00Z",
+        "threadRootId": null,
+        "authorDisplayName": "Example Account Team",
+        "text": "Fictional note: review the online card authorization approval rate before the quarterly review.",
+        "canonicalRequestIds": [
+          "request-006-rfp"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-006/p006"
+      },
+      {
+        "id": "slack-message-006-reply",
+        "customerId": "customer-006",
+        "channelId": "slack-channel-006",
+        "sentAtUtc": "2026-09-26T11:20:00Z",
+        "threadRootId": "slack-message-006",
+        "authorDisplayName": "Harper Example",
+        "text": "Fictional reply: settlement file timing is still open.",
+        "canonicalRequestIds": [
+          "request-006-support"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-006/p006b"
+      },
+      {
+        "id": "slack-message-007",
+        "customerId": "customer-007",
+        "channelId": "slack-channel-007",
+        "sentAtUtc": "2026-09-26T11:00:00Z",
+        "threadRootId": null,
+        "authorDisplayName": "Example Account Team",
+        "text": "Fictional note: review the stored-card wallet approval rate before the quarterly review.",
+        "canonicalRequestIds": [
+          "request-007-rfp"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-007/p007"
+      },
+      {
+        "id": "slack-message-007-reply",
+        "customerId": "customer-007",
+        "channelId": "slack-channel-007",
+        "sentAtUtc": "2026-09-26T11:20:00Z",
+        "threadRootId": "slack-message-007",
+        "authorDisplayName": "Jordan Example",
+        "text": "Fictional reply: settlement file timing is still open.",
+        "canonicalRequestIds": [
+          "request-007-support"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-007/p007b"
+      },
+      {
+        "id": "slack-message-008",
+        "customerId": "customer-008",
+        "channelId": "slack-channel-008",
+        "sentAtUtc": "2026-09-26T11:00:00Z",
+        "threadRootId": null,
+        "authorDisplayName": "Example Account Team",
+        "text": "Fictional note: review the platform checkout approval rate before the quarterly review.",
+        "canonicalRequestIds": [
+          "request-008-rfp"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-008/p008"
+      },
+      {
+        "id": "slack-message-008-reply",
+        "customerId": "customer-008",
+        "channelId": "slack-channel-008",
+        "sentAtUtc": "2026-09-26T11:20:00Z",
+        "threadRootId": "slack-message-008",
+        "authorDisplayName": "Saoirse Example",
+        "text": "Fictional reply: settlement file timing is still open.",
+        "canonicalRequestIds": [
+          "request-008-support"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-008/p008b"
+      },
+      {
+        "id": "slack-message-009",
+        "customerId": "customer-009",
+        "channelId": "slack-channel-009",
+        "sentAtUtc": "2026-09-26T11:00:00Z",
+        "threadRootId": null,
+        "authorDisplayName": "Example Account Team",
+        "text": "Fictional note: review the marketplace checkout approval rate before the quarterly review.",
+        "canonicalRequestIds": [
+          "request-009-rfp"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-009/p009"
+      },
+      {
+        "id": "slack-message-009-reply",
+        "customerId": "customer-009",
+        "channelId": "slack-channel-009",
+        "sentAtUtc": "2026-09-26T11:20:00Z",
+        "threadRootId": "slack-message-009",
+        "authorDisplayName": "Greta Example",
+        "text": "Fictional reply: settlement file timing is still open.",
+        "canonicalRequestIds": [
+          "request-009-support"
+        ],
+        "sourceUrl": "https://slack.example/archives/slack-channel-009/p009b"
+      }
+    ]
+  }
+}

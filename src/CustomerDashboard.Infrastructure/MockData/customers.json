@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "source": "CustomerCatalog",
+  "mode": "Mock",
+  "lastSuccessfulExtractionAtUtc": "2026-09-29T08:00:00Z",
+  "dataThroughUtc": "2026-09-29T07:55:00Z",
+  "data": {
+    "customers": [
+      {
+        "id": "customer-001",
+        "name": "Northstar Demo",
+        "domain": "northstar.example",
+        "aliases": [
+          "Northstar Demo Ltd"
+        ],
+        "industry": "Software",
+        "countryCode": "RO",
+        "reportingCurrency": "EUR",
+        "reportingTimeZone": "Europe/Bucharest",
+        "sourceMappings": {
+          "salesforceAccountId": "sf-account-001",
+          "alexisCustomerKey": "alexis-001",
+          "jiraCustomerKey": "customer-001",
+          "slackChannelIds": [
+            "slack-channel-001"
+          ],
+          "confluenceSpaceKeys": [
+            "NSDEMO"
+          ]
+        }
+      },
+      {
+        "id": "customer-002",
+        "name": "Harborline Sample",
+        "domain": "harborline.example",
+        "aliases": [
+          "Harborline Sample Inc"
+        ],
+        "industry": "Logistics",
+        "countryCode": "US",
+        "reportingCurrency": "USD",
+        "reportingTimeZone": "America/New_York",
+        "sourceMappings": {
+          "salesforceAccountId": "sf-account-002",
+          "alexisCustomerKey": "alexis-002",
+          "jiraCustomerKey": "customer-002",
+          "slackChannelIds": [
+            "slack-channel-002"
+          ],
+          "confluenceSpaceKeys": [
+            "HARBOR"
+          ]
+        }
+      },
+      {
+        "id": "customer-003",
+        "name": "Paperline Example",
+        "domain": "paperline.example",
+        "aliases": [
+          "Paperline Example GmbH"
+        ],
+        "industry": "Publishing",
+        "countryCode": "DE",
+        "reportingCurrency": "GBP",
+        "reportingTimeZone": "Europe/London",
+        "sourceMappings": {
+          "salesforceAccountId": "sf-account-003",
+          "alexisCustomerKey": "alexis-003",
+          "jiraCustomerKey": "customer-003",
+          "slackChannelIds": [],
+          "confluenceSpaceKeys": []
+        }
+      },
+      {
+        "id": "customer-004",
+        "name": "Lumen Checkout",
+        "domain": "lumen-checkout.example",
+        "aliases": [
+          "Lumen Checkout SAS"
+        ],
+        "industry": "Online card checkout",
+        "countryCode": "FR",
+        "reportingCurrency": "EUR",
+        "reportingTimeZone": "Europe/Paris",
+        "sourceMappings": {
+          "salesforceAccountId": "sf-account-004",
+          "alexisCustomerKey": "alexis-004",
+          "jiraCustomerKey": "customer-004",
+          "slackChannelIds": [
+            "slack-channel-004"
+          ],
+          "confluenceSpaceKeys": [
+            "LUMEN"
+          ]
+        }
+      },
+      {
+        "id": "customer-005",
+        "name": "Nimbus Pay",
+        "domain": "nimbus-pay.example",
+        "aliases": [
+          "Nimbus Pay Inc"
+        ],
+        "industry": "Card-not-present acquiring",
+        "countryCode": "US",
+        "reportingCurrency": "USD",
+        "reportingTimeZone": "America/Chicago",
+        "sourceMappings": {
+          "salesforceAccountId": "sf-account-005",
+          "alexisCustomerKey": "alexis-005",
+          "jiraCustomerKey": "customer-005",
+          "slackChannelIds": [
+            "slack-channel-005"
+          ],
+          "confluenceSpaceKeys": [
+            "NIMBUS"
+          ]
+        }
+      },
+      {
+        "id": "customer-006",
+        "name": "Quay Ledger",
+        "domain": "quay-ledger.example",
+        "aliases": [
+          "Quay Ledger Ltd"
+        ],
+        "industry": "Online virtual cards",
+        "countryCode": "GB",
+        "reportingCurrency": "GBP",
+        "reportingTimeZone": "Europe/London",
+        "sourceMappings": {
+          "salesforceAccountId": "sf-account-006",
+          "alexisCustomerKey": "alexis-006",
+          "jiraCustomerKey": "customer-006",
+          "slackChannelIds": [
+            "slack-channel-006"
+          ],
+          "confluenceSpaceKeys": [
+            "QUAY"
+          ]
+        }
+      },
+      {
+        "id": "customer-007",
+        "name": "Halcyon Wallet",
+        "domain": "halcyon-wallet.example",
+        "aliases": [
+          "Halcyon Wallet LLC"
+        ],
+        "industry": "Digital wallet checkout",
+        "countryCode": "US",
+        "reportingCurrency": "USD",
+        "reportingTimeZone": "America/Los_Angeles",
+        "sourceMappings": {
+          "salesforceAccountId": "sf-account-007",
+          "alexisCustomerKey": "alexis-007",
+          "jiraCustomerKey": "customer-007",
+          "slackChannelIds": [
+            "slack-channel-007"
+          ],
+          "confluenceSpaceKeys": [
+            "HALCYON"
+          ]
+        }
+      },
+      {
+        "id": "customer-008",
+        "name": "Plexa Checkout",
+        "domain": "plexa-checkout.example",
+        "aliases": [
+          "Plexa Checkout Ltd"
+        ],
+        "industry": "Platform card checkout",
+        "countryCode": "IE",
+        "reportingCurrency": "EUR",
+        "reportingTimeZone": "Europe/Dublin",
+        "sourceMappings": {
+          "salesforceAccountId": "sf-account-008",
+          "alexisCustomerKey": "alexis-008",
+          "jiraCustomerKey": "customer-008",
+          "slackChannelIds": [
+            "slack-channel-008"
+          ],
+          "confluenceSpaceKeys": [
+            "PLEXA"
+          ]
+        }
+      },
+      {
+        "id": "customer-009",
+        "name": "Brindle Commerce",
+        "domain": "brindle-commerce.example",
+        "aliases": [
+          "Brindle Commerce GmbH"
+        ],
+        "industry": "Marketplace card checkout",
+        "countryCode": "DE",
+        "reportingCurrency": "EUR",
+        "reportingTimeZone": "Europe/Berlin",
+        "sourceMappings": {
+          "salesforceAccountId": "sf-account-009",
+          "alexisCustomerKey": "alexis-009",
+          "jiraCustomerKey": "customer-009",
+          "slackChannelIds": [
+            "slack-channel-009"
+          ],
+          "confluenceSpaceKeys": [
+            "BRINDLE"
+          ]
+        }
+      }
+    ]
+  }
+}

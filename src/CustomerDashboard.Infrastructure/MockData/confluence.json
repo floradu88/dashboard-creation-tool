@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "source": "Confluence",
+  "mode": "Mock",
+  "lastSuccessfulExtractionAtUtc": "2026-09-29T08:00:00Z",
+  "dataThroughUtc": "2026-09-29T07:55:00Z",
+  "data": {
+    "pages": [
+      {
+        "id": "page-001",
+        "customerId": "customer-001",
+        "spaceKey": "NSDEMO",
+        "title": "Account success plan",
+        "kind": "AccountPlan",
+        "version": 3,
+        "updatedAtUtc": "2026-09-24T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-001"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/NSDEMO/pages/page-001",
+        "summary": "Fictional account objectives and expansion requirements."
+      },
+      {
+        "id": "page-002",
+        "customerId": "customer-002",
+        "spaceKey": "HARBOR",
+        "title": "Response follow-up",
+        "kind": "Request",
+        "version": 1,
+        "updatedAtUtc": "2026-09-19T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-002"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/HARBOR/pages/page-002",
+        "summary": "Fictional note about the missed response target."
+      },
+      {
+        "id": "page-004-plan",
+        "customerId": "customer-004",
+        "spaceKey": "LUMEN",
+        "title": "Card program account plan",
+        "kind": "AccountPlan",
+        "version": 2,
+        "updatedAtUtc": "2026-09-24T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-004-rfi"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/LUMEN/pages/page-004-plan",
+        "summary": "Fictional plan for online card authorization, settlement, and renewal."
+      },
+      {
+        "id": "page-004-rfp",
+        "customerId": "customer-004",
+        "spaceKey": "LUMEN",
+        "title": "Card authorization proposal notes",
+        "kind": "Request",
+        "version": 1,
+        "updatedAtUtc": "2026-09-12T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-004-rfp"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/LUMEN/pages/page-004-rfp",
+        "summary": "Fictional requirements for card-not-present checkout."
+      },
+      {
+        "id": "page-005-plan",
+        "customerId": "customer-005",
+        "spaceKey": "NIMBUS",
+        "title": "Card program account plan",
+        "kind": "AccountPlan",
+        "version": 2,
+        "updatedAtUtc": "2026-09-24T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-005-rfi"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/NIMBUS/pages/page-005-plan",
+        "summary": "Fictional plan for online card authorization, settlement, and renewal."
+      },
+      {
+        "id": "page-005-rfp",
+        "customerId": "customer-005",
+        "spaceKey": "NIMBUS",
+        "title": "Card authorization proposal notes",
+        "kind": "Request",
+        "version": 1,
+        "updatedAtUtc": "2026-09-12T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-005-rfp"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/NIMBUS/pages/page-005-rfp",
+        "summary": "Fictional requirements for card-not-present checkout."
+      },
+      {
+        "id": "page-006-plan",
+        "customerId": "customer-006",
+        "spaceKey": "QUAY",
+        "title": "Card program account plan",
+        "kind": "AccountPlan",
+        "version": 2,
+        "updatedAtUtc": "2026-09-24T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-006-rfi"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/QUAY/pages/page-006-plan",
+        "summary": "Fictional plan for online card authorization, settlement, and renewal."
+      },
+      {
+        "id": "page-006-rfp",
+        "customerId": "customer-006",
+        "spaceKey": "QUAY",
+        "title": "Card authorization proposal notes",
+        "kind": "Request",
+        "version": 1,
+        "updatedAtUtc": "2026-09-12T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-006-rfp"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/QUAY/pages/page-006-rfp",
+        "summary": "Fictional requirements for card-not-present checkout."
+      },
+      {
+        "id": "page-007-plan",
+        "customerId": "customer-007",
+        "spaceKey": "HALCYON",
+        "title": "Stored-card wallet account plan",
+        "kind": "AccountPlan",
+        "version": 2,
+        "updatedAtUtc": "2026-09-24T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-007-rfi"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/HALCYON/pages/page-007-plan",
+        "summary": "Fictional plan for the stored-card wallet, settlement, and renewal."
+      },
+      {
+        "id": "page-007-rfp",
+        "customerId": "customer-007",
+        "spaceKey": "HALCYON",
+        "title": "Card authorization proposal notes",
+        "kind": "Request",
+        "version": 1,
+        "updatedAtUtc": "2026-09-12T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-007-rfp"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/HALCYON/pages/page-007-rfp",
+        "summary": "Fictional requirements for the stored-card wallet."
+      },
+      {
+        "id": "page-008-plan",
+        "customerId": "customer-008",
+        "spaceKey": "PLEXA",
+        "title": "Platform checkout account plan",
+        "kind": "AccountPlan",
+        "version": 2,
+        "updatedAtUtc": "2026-09-24T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-008-rfi"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/PLEXA/pages/page-008-plan",
+        "summary": "Fictional plan for the platform checkout, settlement, and renewal."
+      },
+      {
+        "id": "page-008-rfp",
+        "customerId": "customer-008",
+        "spaceKey": "PLEXA",
+        "title": "Card authorization proposal notes",
+        "kind": "Request",
+        "version": 1,
+        "updatedAtUtc": "2026-09-12T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-008-rfp"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/PLEXA/pages/page-008-rfp",
+        "summary": "Fictional requirements for the platform checkout."
+      },
+      {
+        "id": "page-009-plan",
+        "customerId": "customer-009",
+        "spaceKey": "BRINDLE",
+        "title": "Marketplace checkout account plan",
+        "kind": "AccountPlan",
+        "version": 2,
+        "updatedAtUtc": "2026-09-24T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-009-rfi"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/BRINDLE/pages/page-009-plan",
+        "summary": "Fictional plan for the marketplace checkout, settlement, and renewal."
+      },
+      {
+        "id": "page-009-rfp",
+        "customerId": "customer-009",
+        "spaceKey": "BRINDLE",
+        "title": "Card authorization proposal notes",
+        "kind": "Request",
+        "version": 1,
+        "updatedAtUtc": "2026-09-12T12:00:00Z",
+        "canonicalRequestIds": [
+          "request-009-rfp"
+        ],
+        "sourceUrl": "https://confluence.example/spaces/BRINDLE/pages/page-009-rfp",
+        "summary": "Fictional requirements for the marketplace checkout."
+      }
+    ]
+  }
+}

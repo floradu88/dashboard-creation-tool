@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="../CustomerDashboard.Application/CustomerDashboard.Application.csproj" />
+    <ProjectReference Include="../CustomerDashboard.Infrastructure/CustomerDashboard.Infrastructure.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="ModelContextProtocol.AspNetCore" />
+    <Content Include="../CustomerDashboard.Infrastructure/MockData/*.json" Link="MockData/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

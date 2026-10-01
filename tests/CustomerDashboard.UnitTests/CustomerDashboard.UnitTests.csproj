@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><IsTestProject>true</IsTestProject><IsPackable>false</IsPackable><OutputType>Exe</OutputType><TestingPlatformDotnetTestSupport>true</TestingPlatformDotnetTestSupport></PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit.v3" />
+    
+    <ProjectReference Include="../../src/CustomerDashboard.Application/CustomerDashboard.Application.csproj" />
+    <Using Include="Xunit" />
+  </ItemGroup>
+</Project>
+

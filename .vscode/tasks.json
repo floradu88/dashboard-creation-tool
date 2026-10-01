@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start dashboard (background)",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/scripts/debug.ps1",
+        "-Detach"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Stop dashboard",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/scripts/stop.ps1"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Test dashboard",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-File",
+        "${workspaceFolder}/scripts/test.ps1"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

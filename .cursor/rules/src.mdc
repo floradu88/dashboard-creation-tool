@@ -1,0 +1,8 @@
+---
+description: Source projects responsibilities and validation
+globs: "src/**/*"
+alwaysApply: false
+---
+
+Read and follow `src/AGENTS.md` and its ancestor `AGENTS.md` files before editing matched files. These shared files define scope, dependency boundaries, data rules and validation expectations.
+

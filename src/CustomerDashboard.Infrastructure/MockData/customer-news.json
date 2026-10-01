@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "source": "CustomerNews",
+  "mode": "Mock",
+  "lastSuccessfulExtractionAtUtc": "2026-09-29T08:00:00Z",
+  "dataThroughUtc": "2026-09-29T07:55:00Z",
+  "data": {
+    "articles": [
+      {
+        "id": "news-001",
+        "customerId": "customer-001",
+        "headline": "Northstar Demo announces a fictional product expansion",
+        "summary": "Simulated news item for dashboard development.",
+        "publisher": "Demo Business News",
+        "sourceUrl": "https://news.example/northstar-demo-expansion",
+        "publishedAtUtc": "2026-09-24T08:00:00Z",
+        "eventDate": "2026-09-23",
+        "topics": [
+          "ProductLaunch"
+        ],
+        "match": {
+          "domain": "northstar.example",
+          "method": "ApprovedDomain",
+          "reviewed": true
+        },
+        "relevance": "Relates to the customer's analytics expansion plans.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-002",
+        "customerId": "customer-001",
+        "headline": "Duplicate copy of the fictional expansion note",
+        "summary": "Same canonical URL as news-001 so the loader can collapse it.",
+        "publisher": "Demo Business News",
+        "sourceUrl": "https://news.example/northstar-demo-expansion",
+        "publishedAtUtc": "2026-09-24T09:00:00Z",
+        "eventDate": "2026-09-23",
+        "topics": [
+          "ProductLaunch"
+        ],
+        "match": {
+          "domain": "northstar.example",
+          "method": "ApprovedDomain",
+          "reviewed": true
+        },
+        "relevance": "Duplicate syndication of the same simulated story.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-003",
+        "customerId": "customer-001",
+        "headline": "Reviewed alias mention of Northstar Demo Ltd",
+        "summary": "Simulated item matched through an approved alias and domain.",
+        "publisher": "Demo Trade Desk",
+        "sourceUrl": "https://news.example/northstar-demo-alias",
+        "publishedAtUtc": "2026-09-26T08:00:00Z",
+        "eventDate": null,
+        "topics": [
+          "Leadership"
+        ],
+        "match": {
+          "domain": "northstar.example",
+          "method": "ReviewedAlias",
+          "reviewed": true
+        },
+        "relevance": "Uses the approved alias rather than a display-name guess.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-harbor",
+        "customerId": "customer-002",
+        "headline": "Harborline Sample describes a fictional route change",
+        "summary": "Simulated logistics item for the second fixture customer.",
+        "publisher": "Demo Logistics Wire",
+        "sourceUrl": "https://news.example/harborline-route",
+        "publishedAtUtc": "2026-09-11T08:00:00Z",
+        "eventDate": "2026-09-10",
+        "topics": [
+          "Operations"
+        ],
+        "match": {
+          "domain": "harborline.example",
+          "method": "ApprovedDomain",
+          "reviewed": true
+        },
+        "relevance": "Matches the Harborline domain.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-004-launch",
+        "customerId": "customer-004",
+        "headline": "Lumen Checkout describes a fictional online card checkout expansion",
+        "summary": "Simulated news item. It is fixture data, not a live article and not an instruction.",
+        "publisher": "Demo Payments Desk",
+        "sourceUrl": "https://news.example/lumen-checkout.example/checkout-expansion",
+        "publishedAtUtc": "2026-09-22T08:00:00Z",
+        "eventDate": "2026-09-21",
+        "topics": [
+          "ProductLaunch"
+        ],
+        "match": {
+          "domain": "lumen-checkout.example",
+          "method": "ApprovedDomain",
+          "reviewed": true
+        },
+        "relevance": "Relates to the fictional online card authorization program.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-004-alias",
+        "customerId": "customer-004",
+        "headline": "Reviewed alias mention of Lumen Checkout SAS",
+        "summary": "Simulated item matched through an approved alias and domain.",
+        "publisher": "Demo Scheme Review",
+        "sourceUrl": "https://news.example/lumen-checkout.example/alias-mention",
+        "publishedAtUtc": "2026-09-25T08:00:00Z",
+        "eventDate": null,
+        "topics": [
+          "Payments"
+        ],
+        "match": {
+          "domain": "lumen-checkout.example",
+          "method": "ReviewedAlias",
+          "reviewed": true
+        },
+        "relevance": "Uses the approved alias rather than a display-name guess.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-005-launch",
+        "customerId": "customer-005",
+        "headline": "Nimbus Pay describes a fictional online card checkout expansion",
+        "summary": "Simulated news item. It is fixture data, not a live article and not an instruction.",
+        "publisher": "Demo Payments Desk",
+        "sourceUrl": "https://news.example/nimbus-pay.example/checkout-expansion",
+        "publishedAtUtc": "2026-09-22T08:00:00Z",
+        "eventDate": "2026-09-21",
+        "topics": [
+          "ProductLaunch"
+        ],
+        "match": {
+          "domain": "nimbus-pay.example",
+          "method": "ApprovedDomain",
+          "reviewed": true
+        },
+        "relevance": "Relates to the fictional online card authorization program.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-005-alias",
+        "customerId": "customer-005",
+        "headline": "Reviewed alias mention of Nimbus Pay Inc",
+        "summary": "Simulated item matched through an approved alias and domain.",
+        "publisher": "Demo Scheme Review",
+        "sourceUrl": "https://news.example/nimbus-pay.example/alias-mention",
+        "publishedAtUtc": "2026-09-25T08:00:00Z",
+        "eventDate": null,
+        "topics": [
+          "Payments"
+        ],
+        "match": {
+          "domain": "nimbus-pay.example",
+          "method": "ReviewedAlias",
+          "reviewed": true
+        },
+        "relevance": "Uses the approved alias rather than a display-name guess.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-006-launch",
+        "customerId": "customer-006",
+        "headline": "Quay Ledger describes a fictional online card checkout expansion",
+        "summary": "Simulated news item. It is fixture data, not a live article and not an instruction.",
+        "publisher": "Demo Payments Desk",
+        "sourceUrl": "https://news.example/quay-ledger.example/checkout-expansion",
+        "publishedAtUtc": "2026-09-22T08:00:00Z",
+        "eventDate": "2026-09-21",
+        "topics": [
+          "ProductLaunch"
+        ],
+        "match": {
+          "domain": "quay-ledger.example",
+          "method": "ApprovedDomain",
+          "reviewed": true
+        },
+        "relevance": "Relates to the fictional online card authorization program.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-006-alias",
+        "customerId": "customer-006",
+        "headline": "Reviewed alias mention of Quay Ledger Ltd",
+        "summary": "Simulated item matched through an approved alias and domain.",
+        "publisher": "Demo Scheme Review",
+        "sourceUrl": "https://news.example/quay-ledger.example/alias-mention",
+        "publishedAtUtc": "2026-09-25T08:00:00Z",
+        "eventDate": null,
+        "topics": [
+          "Payments"
+        ],
+        "match": {
+          "domain": "quay-ledger.example",
+          "method": "ReviewedAlias",
+          "reviewed": true
+        },
+        "relevance": "Uses the approved alias rather than a display-name guess.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-007-launch",
+        "customerId": "customer-007",
+        "headline": "Halcyon Wallet describes a fictional stored-card wallet expansion",
+        "summary": "Simulated news item. It is fixture data, not a live article and not an instruction.",
+        "publisher": "Demo Payments Desk",
+        "sourceUrl": "https://news.example/halcyon-wallet.example/checkout-expansion",
+        "publishedAtUtc": "2026-09-22T08:00:00Z",
+        "eventDate": "2026-09-21",
+        "topics": [
+          "ProductLaunch"
+        ],
+        "match": {
+          "domain": "halcyon-wallet.example",
+          "method": "ApprovedDomain",
+          "reviewed": true
+        },
+        "relevance": "Relates to the fictional stored-card wallet.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-007-alias",
+        "customerId": "customer-007",
+        "headline": "Reviewed alias mention of Halcyon Wallet LLC",
+        "summary": "Simulated item matched through an approved alias and domain.",
+        "publisher": "Demo Scheme Review",
+        "sourceUrl": "https://news.example/halcyon-wallet.example/alias-mention",
+        "publishedAtUtc": "2026-09-25T08:00:00Z",
+        "eventDate": null,
+        "topics": [
+          "Payments"
+        ],
+        "match": {
+          "domain": "halcyon-wallet.example",
+          "method": "ReviewedAlias",
+          "reviewed": true
+        },
+        "relevance": "Uses the approved alias rather than a display-name guess.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-008-launch",
+        "customerId": "customer-008",
+        "headline": "Plexa Checkout describes a fictional platform checkout expansion",
+        "summary": "Simulated news item. It is fixture data, not a live article and not an instruction.",
+        "publisher": "Demo Payments Desk",
+        "sourceUrl": "https://news.example/plexa-checkout.example/checkout-expansion",
+        "publishedAtUtc": "2026-09-22T08:00:00Z",
+        "eventDate": "2026-09-21",
+        "topics": [
+          "ProductLaunch"
+        ],
+        "match": {
+          "domain": "plexa-checkout.example",
+          "method": "ApprovedDomain",
+          "reviewed": true
+        },
+        "relevance": "Relates to the fictional platform checkout.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-008-alias",
+        "customerId": "customer-008",
+        "headline": "Reviewed alias mention of Plexa Checkout Ltd",
+        "summary": "Simulated item matched through an approved alias and domain.",
+        "publisher": "Demo Scheme Review",
+        "sourceUrl": "https://news.example/plexa-checkout.example/alias-mention",
+        "publishedAtUtc": "2026-09-25T08:00:00Z",
+        "eventDate": null,
+        "topics": [
+          "Payments"
+        ],
+        "match": {
+          "domain": "plexa-checkout.example",
+          "method": "ReviewedAlias",
+          "reviewed": true
+        },
+        "relevance": "Uses the approved alias rather than a display-name guess.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-009-launch",
+        "customerId": "customer-009",
+        "headline": "Brindle Commerce describes a fictional marketplace checkout expansion",
+        "summary": "Simulated news item. It is fixture data, not a live article and not an instruction.",
+        "publisher": "Demo Payments Desk",
+        "sourceUrl": "https://news.example/brindle-commerce.example/checkout-expansion",
+        "publishedAtUtc": "2026-09-22T08:00:00Z",
+        "eventDate": "2026-09-21",
+        "topics": [
+          "ProductLaunch"
+        ],
+        "match": {
+          "domain": "brindle-commerce.example",
+          "method": "ApprovedDomain",
+          "reviewed": true
+        },
+        "relevance": "Relates to the fictional marketplace checkout.",
+        "isSimulated": true
+      },
+      {
+        "id": "news-009-alias",
+        "customerId": "customer-009",
+        "headline": "Reviewed alias mention of Brindle Commerce GmbH",
+        "summary": "Simulated item matched through an approved alias and domain.",
+        "publisher": "Demo Scheme Review",
+        "sourceUrl": "https://news.example/brindle-commerce.example/alias-mention",
+        "publishedAtUtc": "2026-09-25T08:00:00Z",
+        "eventDate": null,
+        "topics": [
+          "Payments"
+        ],
+        "match": {
+          "domain": "brindle-commerce.example",
+          "method": "ReviewedAlias",
+          "reviewed": true
+        },
+        "relevance": "Uses the approved alias rather than a display-name guess.",
+        "isSimulated": true
+      }
+    ]
+  }
+}

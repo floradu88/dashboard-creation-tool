@@ -1,0 +1,15 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/.angular/
+.local/
+TestResults/
+**/test-results/
+**/playwright-report/
+**/.env
+**/.env.local
+**/AGENTS.local.md
+**/CLAUDE.local.md
+.vs/
+

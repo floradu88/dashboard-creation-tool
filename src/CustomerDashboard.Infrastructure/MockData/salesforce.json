@@ -1,0 +1,1421 @@
+{
+  "schemaVersion": 1,
+  "source": "Salesforce",
+  "mode": "Mock",
+  "lastSuccessfulExtractionAtUtc": "2026-09-29T08:00:00Z",
+  "dataThroughUtc": "2026-09-29T07:55:00Z",
+  "data": {
+    "accounts": [
+      {
+        "id": "sf-account-001",
+        "customerId": "customer-001",
+        "owner": {
+          "id": "owner-001",
+          "displayName": "Alex Demo"
+        },
+        "team": [
+          {
+            "id": "owner-001",
+            "displayName": "Alex Demo",
+            "role": "AccountManager"
+          }
+        ],
+        "stakeholders": [
+          {
+            "id": "contact-001",
+            "displayName": "Sam Example",
+            "role": "Sponsor",
+            "email": "sam@northstar.example"
+          }
+        ],
+        "renewal": {
+          "date": "2027-01-01",
+          "value": {
+            "amount": 120000,
+            "currency": "EUR"
+          },
+          "status": "Upcoming"
+        },
+        "nextQbrDate": "2026-10-15",
+        "lastMeaningfulInteractionAtUtc": "2026-09-25T10:00:00Z",
+        "successPlanUrl": "https://confluence.example/spaces/NSDEMO/pages/page-001",
+        "actions": [
+          {
+            "id": "action-001",
+            "title": "Confirm adoption goals",
+            "ownerId": "owner-001",
+            "dueDate": "2026-10-02",
+            "status": "Open"
+          },
+          {
+            "id": "action-002",
+            "title": "Send the overdue adoption note",
+            "ownerId": "owner-001",
+            "dueDate": "2026-09-01",
+            "status": "Open"
+          }
+        ],
+        "risks": [
+          {
+            "id": "risk-001",
+            "description": "Low adoption in a new team",
+            "severity": "Medium",
+            "ownerId": "owner-001",
+            "status": "Open"
+          }
+        ],
+        "targets": [
+          {
+            "id": "target-001",
+            "metricId": "weighted-pipeline",
+            "definitionVersion": 1,
+            "periodStart": "2026-10-01",
+            "periodEndExclusive": "2027-01-01",
+            "value": 50000,
+            "unit": "EUR",
+            "ownerId": "owner-001"
+          },
+          {
+            "id": "target-002",
+            "metricId": "weighted-pipeline",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 50000,
+            "unit": "EUR",
+            "ownerId": "owner-001"
+          }
+        ]
+      },
+      {
+        "id": "sf-account-002",
+        "customerId": "customer-002",
+        "owner": {
+          "id": "owner-002",
+          "displayName": "Blake Sample"
+        },
+        "team": [
+          {
+            "id": "owner-002",
+            "displayName": "Blake Sample",
+            "role": "AccountManager"
+          }
+        ],
+        "stakeholders": [
+          {
+            "id": "contact-002",
+            "displayName": "Riley Example",
+            "role": "Buyer",
+            "email": "riley@harborline.example"
+          }
+        ],
+        "renewal": {
+          "date": "2026-12-01",
+          "value": {
+            "amount": 40000,
+            "currency": "USD"
+          },
+          "status": "Negotiating"
+        },
+        "nextQbrDate": "2026-11-02",
+        "lastMeaningfulInteractionAtUtc": "2026-09-12T16:00:00Z",
+        "successPlanUrl": "https://confluence.example/spaces/HARBOR/pages/page-002",
+        "actions": [
+          {
+            "id": "action-harbor",
+            "title": "Review the breached response",
+            "ownerId": "owner-002",
+            "dueDate": "2026-10-05",
+            "status": "Open"
+          }
+        ],
+        "risks": [
+          {
+            "id": "risk-harbor",
+            "description": "Response target was missed",
+            "severity": "High",
+            "ownerId": "owner-002",
+            "status": "Open"
+          }
+        ],
+        "targets": []
+      },
+      {
+        "id": "sf-account-003",
+        "customerId": "customer-003",
+        "owner": {
+          "id": "owner-003",
+          "displayName": "Casey Example"
+        },
+        "team": [
+          {
+            "id": "owner-003",
+            "displayName": "Casey Example",
+            "role": "AccountManager"
+          }
+        ],
+        "stakeholders": [
+          {
+            "id": "contact-003",
+            "displayName": "Jordan Example",
+            "role": "Sponsor",
+            "email": null
+          }
+        ],
+        "renewal": null,
+        "nextQbrDate": null,
+        "lastMeaningfulInteractionAtUtc": null,
+        "successPlanUrl": null,
+        "actions": [
+          {
+            "id": "action-003",
+            "title": "Collect a baseline for growth",
+            "ownerId": "owner-003",
+            "dueDate": "2026-08-01",
+            "status": "Open"
+          }
+        ],
+        "risks": [],
+        "targets": []
+      },
+      {
+        "id": "sf-account-004",
+        "customerId": "customer-004",
+        "owner": {
+          "id": "owner-004",
+          "displayName": "Mina Example"
+        },
+        "team": [
+          {
+            "id": "owner-004",
+            "displayName": "Mina Example",
+            "role": "AccountManager"
+          },
+          {
+            "id": "owner-004b",
+            "displayName": "Noah Example",
+            "role": "SolutionsConsultant"
+          }
+        ],
+        "stakeholders": [
+          {
+            "id": "contact-004",
+            "displayName": "Camille Example",
+            "role": "Sponsor",
+            "email": "camille@lumen-checkout.example"
+          },
+          {
+            "id": "contact-004b",
+            "displayName": "Luc Example",
+            "role": "Buyer",
+            "email": "luc@lumen-checkout.example"
+          }
+        ],
+        "renewal": {
+          "date": "2027-04-01",
+          "value": {
+            "amount": 240000,
+            "currency": "EUR"
+          },
+          "status": "Upcoming"
+        },
+        "nextQbrDate": "2026-10-20",
+        "lastMeaningfulInteractionAtUtc": "2026-09-26T11:00:00Z",
+        "successPlanUrl": "https://confluence.example/spaces/LUMEN/pages/page-004-plan",
+        "actions": [
+          {
+            "id": "action-004-qbr",
+            "title": "Prepare the card-program quarterly review",
+            "ownerId": "owner-004",
+            "dueDate": "2026-10-12",
+            "status": "Open"
+          },
+          {
+            "id": "action-004-scheme",
+            "title": "Confirm scheme fee schedule with finance",
+            "ownerId": "owner-004b",
+            "dueDate": "2026-10-06",
+            "status": "InProgress"
+          }
+        ],
+        "risks": [
+          {
+            "id": "risk-004",
+            "description": "Authorization approval rate is below the fictional peer cohort.",
+            "severity": "Medium",
+            "ownerId": "owner-004",
+            "status": "Open"
+          }
+        ],
+        "targets": [
+          {
+            "id": "target-004-pipeline",
+            "metricId": "weighted-pipeline",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 100000,
+            "unit": "EUR",
+            "ownerId": "owner-004"
+          },
+          {
+            "id": "target-004-sla",
+            "metricId": "sla-compliance",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 99,
+            "unit": "Percent",
+            "ownerId": "owner-004b"
+          }
+        ]
+      },
+      {
+        "id": "sf-account-005",
+        "customerId": "customer-005",
+        "owner": {
+          "id": "owner-005",
+          "displayName": "Parker Example"
+        },
+        "team": [
+          {
+            "id": "owner-005",
+            "displayName": "Parker Example",
+            "role": "AccountManager"
+          },
+          {
+            "id": "owner-005b",
+            "displayName": "Reese Example",
+            "role": "SupportLead"
+          }
+        ],
+        "stakeholders": [
+          {
+            "id": "contact-005",
+            "displayName": "Avery Example",
+            "role": "Buyer",
+            "email": "avery@nimbus-pay.example"
+          },
+          {
+            "id": "contact-005b",
+            "displayName": "Quinn Example",
+            "role": "Finance",
+            "email": "quinn@nimbus-pay.example"
+          }
+        ],
+        "renewal": {
+          "date": "2026-12-15",
+          "value": {
+            "amount": 180000,
+            "currency": "USD"
+          },
+          "status": "Negotiating"
+        },
+        "nextQbrDate": "2026-11-05",
+        "lastMeaningfulInteractionAtUtc": "2026-09-26T11:00:00Z",
+        "successPlanUrl": "https://confluence.example/spaces/NIMBUS/pages/page-005-plan",
+        "actions": [
+          {
+            "id": "action-005-qbr",
+            "title": "Prepare the card-program quarterly review",
+            "ownerId": "owner-005",
+            "dueDate": "2026-10-12",
+            "status": "Open"
+          },
+          {
+            "id": "action-005-scheme",
+            "title": "Confirm scheme fee schedule with finance",
+            "ownerId": "owner-005b",
+            "dueDate": "2026-10-06",
+            "status": "InProgress"
+          }
+        ],
+        "risks": [
+          {
+            "id": "risk-005",
+            "description": "Authorization approval rate is below the fictional peer cohort.",
+            "severity": "Medium",
+            "ownerId": "owner-005",
+            "status": "Open"
+          }
+        ],
+        "targets": [
+          {
+            "id": "target-005-pipeline",
+            "metricId": "weighted-pipeline",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 100000,
+            "unit": "USD",
+            "ownerId": "owner-005"
+          },
+          {
+            "id": "target-005-sla",
+            "metricId": "sla-compliance",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 99,
+            "unit": "Percent",
+            "ownerId": "owner-005b"
+          }
+        ]
+      },
+      {
+        "id": "sf-account-006",
+        "customerId": "customer-006",
+        "owner": {
+          "id": "owner-006",
+          "displayName": "Harper Example"
+        },
+        "team": [
+          {
+            "id": "owner-006",
+            "displayName": "Harper Example",
+            "role": "AccountManager"
+          },
+          {
+            "id": "owner-006b",
+            "displayName": "Ellis Example",
+            "role": "AccountManager"
+          }
+        ],
+        "stakeholders": [
+          {
+            "id": "contact-006",
+            "displayName": "Rowan Example",
+            "role": "Sponsor",
+            "email": "rowan@quay-ledger.example"
+          },
+          {
+            "id": "contact-006b",
+            "displayName": "Skye Example",
+            "role": "Operations",
+            "email": "skye@quay-ledger.example"
+          }
+        ],
+        "renewal": {
+          "date": "2027-06-01",
+          "value": {
+            "amount": 96000,
+            "currency": "GBP"
+          },
+          "status": "Upcoming"
+        },
+        "nextQbrDate": "2026-10-28",
+        "lastMeaningfulInteractionAtUtc": "2026-09-26T11:00:00Z",
+        "successPlanUrl": "https://confluence.example/spaces/QUAY/pages/page-006-plan",
+        "actions": [
+          {
+            "id": "action-006-qbr",
+            "title": "Prepare the card-program quarterly review",
+            "ownerId": "owner-006",
+            "dueDate": "2026-10-12",
+            "status": "Open"
+          },
+          {
+            "id": "action-006-scheme",
+            "title": "Confirm scheme fee schedule with finance",
+            "ownerId": "owner-006b",
+            "dueDate": "2026-10-06",
+            "status": "InProgress"
+          }
+        ],
+        "risks": [
+          {
+            "id": "risk-006",
+            "description": "Authorization approval rate is below the fictional peer cohort.",
+            "severity": "Medium",
+            "ownerId": "owner-006",
+            "status": "Open"
+          }
+        ],
+        "targets": [
+          {
+            "id": "target-006-pipeline",
+            "metricId": "weighted-pipeline",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 100000,
+            "unit": "GBP",
+            "ownerId": "owner-006"
+          },
+          {
+            "id": "target-006-sla",
+            "metricId": "sla-compliance",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 99,
+            "unit": "Percent",
+            "ownerId": "owner-006b"
+          }
+        ]
+      },
+      {
+        "id": "sf-account-007",
+        "customerId": "customer-007",
+        "owner": {
+          "id": "owner-007",
+          "displayName": "Jordan Example"
+        },
+        "team": [
+          {
+            "id": "owner-007",
+            "displayName": "Jordan Example",
+            "role": "AccountManager"
+          },
+          {
+            "id": "owner-007b",
+            "displayName": "Casey Example",
+            "role": "SolutionsConsultant"
+          }
+        ],
+        "stakeholders": [
+          {
+            "id": "contact-007",
+            "displayName": "Morgan Example",
+            "role": "Sponsor",
+            "email": "sponsor@halcyon-wallet.example"
+          },
+          {
+            "id": "contact-007b",
+            "displayName": "Riley Example",
+            "role": "Buyer",
+            "email": "buyer@halcyon-wallet.example"
+          }
+        ],
+        "renewal": {
+          "date": "2027-03-01",
+          "value": {
+            "amount": 520000,
+            "currency": "USD"
+          },
+          "status": "Upcoming"
+        },
+        "nextQbrDate": "2026-10-22",
+        "lastMeaningfulInteractionAtUtc": "2026-09-26T11:00:00Z",
+        "successPlanUrl": "https://confluence.example/spaces/HALCYON/pages/page-007-plan",
+        "actions": [
+          {
+            "id": "action-007-qbr",
+            "title": "Prepare the stored-card wallet quarterly review",
+            "ownerId": "owner-007",
+            "dueDate": "2026-10-12",
+            "status": "Open"
+          },
+          {
+            "id": "action-007-scheme",
+            "title": "Confirm scheme fee schedule with finance",
+            "ownerId": "owner-007b",
+            "dueDate": "2026-10-06",
+            "status": "InProgress"
+          }
+        ],
+        "risks": [
+          {
+            "id": "risk-007",
+            "description": "Fictional approval rate on the stored-card wallet is below the sample cohort.",
+            "severity": "Medium",
+            "ownerId": "owner-007",
+            "status": "Open"
+          }
+        ],
+        "targets": [
+          {
+            "id": "target-007-pipeline",
+            "metricId": "weighted-pipeline",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 100000,
+            "unit": "USD",
+            "ownerId": "owner-007"
+          },
+          {
+            "id": "target-007-sla",
+            "metricId": "sla-compliance",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 99,
+            "unit": "Percent",
+            "ownerId": "owner-007b"
+          }
+        ]
+      },
+      {
+        "id": "sf-account-008",
+        "customerId": "customer-008",
+        "owner": {
+          "id": "owner-008",
+          "displayName": "Saoirse Example"
+        },
+        "team": [
+          {
+            "id": "owner-008",
+            "displayName": "Saoirse Example",
+            "role": "AccountManager"
+          },
+          {
+            "id": "owner-008b",
+            "displayName": "Niall Example",
+            "role": "SupportLead"
+          }
+        ],
+        "stakeholders": [
+          {
+            "id": "contact-008",
+            "displayName": "Aoife Example",
+            "role": "Buyer",
+            "email": "sponsor@plexa-checkout.example"
+          },
+          {
+            "id": "contact-008b",
+            "displayName": "Cian Example",
+            "role": "Finance",
+            "email": "buyer@plexa-checkout.example"
+          }
+        ],
+        "renewal": {
+          "date": "2027-02-01",
+          "value": {
+            "amount": 310000,
+            "currency": "EUR"
+          },
+          "status": "Upcoming"
+        },
+        "nextQbrDate": "2026-10-22",
+        "lastMeaningfulInteractionAtUtc": "2026-09-26T11:00:00Z",
+        "successPlanUrl": "https://confluence.example/spaces/PLEXA/pages/page-008-plan",
+        "actions": [
+          {
+            "id": "action-008-qbr",
+            "title": "Prepare the platform checkout quarterly review",
+            "ownerId": "owner-008",
+            "dueDate": "2026-10-12",
+            "status": "Open"
+          },
+          {
+            "id": "action-008-scheme",
+            "title": "Confirm scheme fee schedule with finance",
+            "ownerId": "owner-008b",
+            "dueDate": "2026-10-06",
+            "status": "InProgress"
+          }
+        ],
+        "risks": [
+          {
+            "id": "risk-008",
+            "description": "Fictional approval rate on the platform checkout is below the sample cohort.",
+            "severity": "Medium",
+            "ownerId": "owner-008",
+            "status": "Open"
+          }
+        ],
+        "targets": [
+          {
+            "id": "target-008-pipeline",
+            "metricId": "weighted-pipeline",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 100000,
+            "unit": "EUR",
+            "ownerId": "owner-008"
+          },
+          {
+            "id": "target-008-sla",
+            "metricId": "sla-compliance",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 99,
+            "unit": "Percent",
+            "ownerId": "owner-008b"
+          }
+        ]
+      },
+      {
+        "id": "sf-account-009",
+        "customerId": "customer-009",
+        "owner": {
+          "id": "owner-009",
+          "displayName": "Greta Example"
+        },
+        "team": [
+          {
+            "id": "owner-009",
+            "displayName": "Greta Example",
+            "role": "AccountManager"
+          },
+          {
+            "id": "owner-009b",
+            "displayName": "Jonas Example",
+            "role": "AccountManager"
+          }
+        ],
+        "stakeholders": [
+          {
+            "id": "contact-009",
+            "displayName": "Lena Example",
+            "role": "Sponsor",
+            "email": "sponsor@brindle-commerce.example"
+          },
+          {
+            "id": "contact-009b",
+            "displayName": "Otto Example",
+            "role": "Operations",
+            "email": "buyer@brindle-commerce.example"
+          }
+        ],
+        "renewal": {
+          "date": "2027-05-01",
+          "value": {
+            "amount": 190000,
+            "currency": "EUR"
+          },
+          "status": "Negotiating"
+        },
+        "nextQbrDate": "2026-10-22",
+        "lastMeaningfulInteractionAtUtc": "2026-09-26T11:00:00Z",
+        "successPlanUrl": "https://confluence.example/spaces/BRINDLE/pages/page-009-plan",
+        "actions": [
+          {
+            "id": "action-009-qbr",
+            "title": "Prepare the marketplace checkout quarterly review",
+            "ownerId": "owner-009",
+            "dueDate": "2026-10-12",
+            "status": "Open"
+          },
+          {
+            "id": "action-009-scheme",
+            "title": "Confirm scheme fee schedule with finance",
+            "ownerId": "owner-009b",
+            "dueDate": "2026-10-06",
+            "status": "InProgress"
+          }
+        ],
+        "risks": [
+          {
+            "id": "risk-009",
+            "description": "Fictional approval rate on the marketplace checkout is below the sample cohort.",
+            "severity": "Medium",
+            "ownerId": "owner-009",
+            "status": "Open"
+          }
+        ],
+        "targets": [
+          {
+            "id": "target-009-pipeline",
+            "metricId": "weighted-pipeline",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 100000,
+            "unit": "EUR",
+            "ownerId": "owner-009"
+          },
+          {
+            "id": "target-009-sla",
+            "metricId": "sla-compliance",
+            "definitionVersion": 1,
+            "periodStart": "2026-09-01",
+            "periodEndExclusive": "2026-12-01",
+            "value": 99,
+            "unit": "Percent",
+            "ownerId": "owner-009b"
+          }
+        ]
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "sf-opp-001",
+        "customerId": "customer-001",
+        "name": "Additional team rollout",
+        "kind": "Upsell",
+        "stage": "Proposal",
+        "amount": {
+          "amount": 30000,
+          "currency": "EUR"
+        },
+        "probability": 0.6,
+        "expectedCloseDate": "2026-11-15",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-001"
+      },
+      {
+        "id": "sf-opp-won",
+        "customerId": "customer-001",
+        "name": "Closed onboarding package",
+        "kind": "NewBusiness",
+        "stage": "Won",
+        "amount": {
+          "amount": 5000,
+          "currency": "EUR"
+        },
+        "probability": 1,
+        "expectedCloseDate": "2026-09-20",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-won"
+      },
+      {
+        "id": "sf-opp-002",
+        "customerId": "customer-002",
+        "name": "Harborline yard expansion",
+        "kind": "Upsell",
+        "stage": "Negotiation",
+        "amount": {
+          "amount": 10000,
+          "currency": "USD"
+        },
+        "probability": 0.5,
+        "expectedCloseDate": "2026-11-01",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-002"
+      },
+      {
+        "id": "sf-opp-004-open",
+        "customerId": "customer-004",
+        "name": "Additional checkout markets",
+        "kind": "Upsell",
+        "stage": "Proposal",
+        "amount": {
+          "amount": 50000,
+          "currency": "EUR"
+        },
+        "probability": 0.55,
+        "expectedCloseDate": "2026-11-18",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-004-open"
+      },
+      {
+        "id": "sf-opp-004-other",
+        "customerId": "customer-004",
+        "name": "In-store card fallback",
+        "kind": "NewBusiness",
+        "stage": "Qualification",
+        "amount": {
+          "amount": 20000,
+          "currency": "EUR"
+        },
+        "probability": 0.3,
+        "expectedCloseDate": "2026-11-30",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-004-other"
+      },
+      {
+        "id": "sf-opp-005-open",
+        "customerId": "customer-005",
+        "name": "Acquiring contract renewal",
+        "kind": "Renewal",
+        "stage": "Negotiation",
+        "amount": {
+          "amount": 80000,
+          "currency": "USD"
+        },
+        "probability": 0.4,
+        "expectedCloseDate": "2026-11-12",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-005-open"
+      },
+      {
+        "id": "sf-opp-005-other",
+        "customerId": "customer-005",
+        "name": "Token vault onboarding",
+        "kind": "NewBusiness",
+        "stage": "Won",
+        "amount": {
+          "amount": 15000,
+          "currency": "USD"
+        },
+        "probability": 1,
+        "expectedCloseDate": "2026-09-08",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-005-other"
+      },
+      {
+        "id": "sf-opp-006-open",
+        "customerId": "customer-006",
+        "name": "Marketplace payout cards",
+        "kind": "Upsell",
+        "stage": "Lost",
+        "amount": {
+          "amount": 24000,
+          "currency": "GBP"
+        },
+        "probability": 0.25,
+        "expectedCloseDate": "2026-09-18",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-006-open"
+      },
+      {
+        "id": "sf-opp-006-other",
+        "customerId": "customer-006",
+        "name": "Virtual card program renewal",
+        "kind": "Renewal",
+        "stage": "Proposal",
+        "amount": {
+          "amount": 36000,
+          "currency": "GBP"
+        },
+        "probability": 0.7,
+        "expectedCloseDate": "2026-11-22",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-006-other"
+      },
+      {
+        "id": "sf-opp-007-open",
+        "customerId": "customer-007",
+        "name": "Stored-card wallet expansion",
+        "kind": "Upsell",
+        "stage": "Negotiation",
+        "amount": {
+          "amount": 120000,
+          "currency": "USD"
+        },
+        "probability": 0.45,
+        "expectedCloseDate": "2026-11-20",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-007-open"
+      },
+      {
+        "id": "sf-opp-007-other",
+        "customerId": "customer-007",
+        "name": "Guest checkout on the wallet",
+        "kind": "NewBusiness",
+        "stage": "Qualification",
+        "amount": {
+          "amount": 40000,
+          "currency": "USD"
+        },
+        "probability": 0.2,
+        "expectedCloseDate": "2026-11-28",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-007-other"
+      },
+      {
+        "id": "sf-opp-008-open",
+        "customerId": "customer-008",
+        "name": "Platform checkout renewal",
+        "kind": "Renewal",
+        "stage": "Proposal",
+        "amount": {
+          "amount": 70000,
+          "currency": "EUR"
+        },
+        "probability": 0.6,
+        "expectedCloseDate": "2026-11-10",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-008-open"
+      },
+      {
+        "id": "sf-opp-008-other",
+        "customerId": "customer-008",
+        "name": "Won merchant onboarding pack",
+        "kind": "NewBusiness",
+        "stage": "Won",
+        "amount": {
+          "amount": 25000,
+          "currency": "EUR"
+        },
+        "probability": 1,
+        "expectedCloseDate": "2026-09-09",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-008-other"
+      },
+      {
+        "id": "sf-opp-009-open",
+        "customerId": "customer-009",
+        "name": "Marketplace seller checkout",
+        "kind": "Upsell",
+        "stage": "Proposal",
+        "amount": {
+          "amount": 45000,
+          "currency": "EUR"
+        },
+        "probability": 0.35,
+        "expectedCloseDate": "2026-11-25",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-009-open"
+      },
+      {
+        "id": "sf-opp-009-other",
+        "customerId": "customer-009",
+        "name": "Lost cross-border acquiring bid",
+        "kind": "Renewal",
+        "stage": "Lost",
+        "amount": {
+          "amount": 18000,
+          "currency": "EUR"
+        },
+        "probability": 0,
+        "expectedCloseDate": "2026-09-18",
+        "sourceUrl": "https://salesforce.example/opportunity/sf-opp-009-other"
+      }
+    ],
+    "requests": [
+      {
+        "id": "sf-request-001",
+        "canonicalRequestId": "request-001",
+        "customerId": "customer-001",
+        "type": "RFP",
+        "title": "Analytics expansion proposal",
+        "status": "InProgress",
+        "receivedAtUtc": "2026-09-10T09:00:00Z",
+        "dueAtUtc": "2026-10-10T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-001",
+        "opportunityId": "sf-opp-001",
+        "jiraIssueIds": [
+          "jira-001"
+        ],
+        "confluencePageIds": [
+          "page-001"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-001"
+      },
+      {
+        "id": "sf-request-002",
+        "canonicalRequestId": "request-002",
+        "customerId": "customer-002",
+        "type": "Support",
+        "title": "Response-time follow-up",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-18T15:30:00Z",
+        "dueAtUtc": "2026-09-20T15:30:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-002",
+        "opportunityId": null,
+        "jiraIssueIds": [
+          "jira-002"
+        ],
+        "confluencePageIds": [
+          "page-002"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-002"
+      },
+      {
+        "id": "sf-request-004-rfp",
+        "canonicalRequestId": "request-004-rfp",
+        "customerId": "customer-004",
+        "type": "RFP",
+        "title": "Online card authorization platform proposal",
+        "status": "InProgress",
+        "receivedAtUtc": "2026-09-04T09:00:00Z",
+        "dueAtUtc": "2026-10-16T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-004",
+        "opportunityId": "sf-opp-004-open",
+        "jiraIssueIds": [
+          "jira-004-open"
+        ],
+        "confluencePageIds": [
+          "page-004-rfp"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-004-rfp"
+      },
+      {
+        "id": "sf-request-004-rfi",
+        "canonicalRequestId": "request-004-rfi",
+        "customerId": "customer-004",
+        "type": "RFI",
+        "title": "Scheme fee and interchange information request",
+        "status": "Resolved",
+        "receivedAtUtc": "2026-08-20T10:00:00Z",
+        "dueAtUtc": "2026-09-05T16:00:00Z",
+        "resolvedAtUtc": "2026-09-03T15:00:00Z",
+        "ownerId": "owner-004b",
+        "opportunityId": null,
+        "jiraIssueIds": [],
+        "confluencePageIds": [
+          "page-004-plan"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-004-rfi"
+      },
+      {
+        "id": "sf-request-004-feature",
+        "canonicalRequestId": "request-004-feature",
+        "customerId": "customer-004",
+        "type": "FeatureRequest",
+        "title": "3-D Secure challenge for card-not-present checkout",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-15T13:00:00Z",
+        "dueAtUtc": "2026-10-30T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-004b",
+        "opportunityId": null,
+        "jiraIssueIds": [
+          "jira-004-done"
+        ],
+        "confluencePageIds": [],
+        "sourceUrl": "https://salesforce.example/request/sf-request-004-feature"
+      },
+      {
+        "id": "sf-request-004-support",
+        "canonicalRequestId": "request-004-support",
+        "customerId": "customer-004",
+        "type": "Support",
+        "title": "Settlement file for online card capture arrived late",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-17T08:30:00Z",
+        "dueAtUtc": "2026-09-20T17:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-004",
+        "opportunityId": null,
+        "jiraIssueIds": [],
+        "confluencePageIds": [],
+        "sourceUrl": "https://salesforce.example/request/sf-request-004-support"
+      },
+      {
+        "id": "sf-request-005-rfp",
+        "canonicalRequestId": "request-005-rfp",
+        "customerId": "customer-005",
+        "type": "RFP",
+        "title": "Online card authorization platform proposal",
+        "status": "InProgress",
+        "receivedAtUtc": "2026-09-04T09:00:00Z",
+        "dueAtUtc": "2026-10-16T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-005",
+        "opportunityId": "sf-opp-005-open",
+        "jiraIssueIds": [
+          "jira-005-open"
+        ],
+        "confluencePageIds": [
+          "page-005-rfp"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-005-rfp"
+      },
+      {
+        "id": "sf-request-005-rfi",
+        "canonicalRequestId": "request-005-rfi",
+        "customerId": "customer-005",
+        "type": "RFI",
+        "title": "Scheme fee and interchange information request",
+        "status": "Resolved",
+        "receivedAtUtc": "2026-08-20T10:00:00Z",
+        "dueAtUtc": "2026-09-05T16:00:00Z",
+        "resolvedAtUtc": "2026-09-03T15:00:00Z",
+        "ownerId": "owner-005b",
+        "opportunityId": null,
+        "jiraIssueIds": [],
+        "confluencePageIds": [
+          "page-005-plan"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-005-rfi"
+      },
+      {
+        "id": "sf-request-005-feature",
+        "canonicalRequestId": "request-005-feature",
+        "customerId": "customer-005",
+        "type": "FeatureRequest",
+        "title": "3-D Secure challenge for card-not-present checkout",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-15T13:00:00Z",
+        "dueAtUtc": "2026-10-30T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-005b",
+        "opportunityId": null,
+        "jiraIssueIds": [
+          "jira-005-done"
+        ],
+        "confluencePageIds": [],
+        "sourceUrl": "https://salesforce.example/request/sf-request-005-feature"
+      },
+      {
+        "id": "sf-request-005-support",
+        "canonicalRequestId": "request-005-support",
+        "customerId": "customer-005",
+        "type": "Support",
+        "title": "Settlement file for online card capture arrived late",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-17T08:30:00Z",
+        "dueAtUtc": "2026-09-20T17:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-005",
+        "opportunityId": null,
+        "jiraIssueIds": [],
+        "confluencePageIds": [],
+        "sourceUrl": "https://salesforce.example/request/sf-request-005-support"
+      },
+      {
+        "id": "sf-request-006-rfp",
+        "canonicalRequestId": "request-006-rfp",
+        "customerId": "customer-006",
+        "type": "RFP",
+        "title": "Online card authorization platform proposal",
+        "status": "InProgress",
+        "receivedAtUtc": "2026-09-04T09:00:00Z",
+        "dueAtUtc": "2026-10-16T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-006",
+        "opportunityId": "sf-opp-006-open",
+        "jiraIssueIds": [
+          "jira-006-open"
+        ],
+        "confluencePageIds": [
+          "page-006-rfp"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-006-rfp"
+      },
+      {
+        "id": "sf-request-006-rfi",
+        "canonicalRequestId": "request-006-rfi",
+        "customerId": "customer-006",
+        "type": "RFI",
+        "title": "Scheme fee and interchange information request",
+        "status": "Resolved",
+        "receivedAtUtc": "2026-08-20T10:00:00Z",
+        "dueAtUtc": "2026-09-05T16:00:00Z",
+        "resolvedAtUtc": "2026-09-03T15:00:00Z",
+        "ownerId": "owner-006b",
+        "opportunityId": null,
+        "jiraIssueIds": [],
+        "confluencePageIds": [
+          "page-006-plan"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-006-rfi"
+      },
+      {
+        "id": "sf-request-006-feature",
+        "canonicalRequestId": "request-006-feature",
+        "customerId": "customer-006",
+        "type": "FeatureRequest",
+        "title": "3-D Secure challenge for card-not-present checkout",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-15T13:00:00Z",
+        "dueAtUtc": "2026-10-30T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-006b",
+        "opportunityId": null,
+        "jiraIssueIds": [
+          "jira-006-done"
+        ],
+        "confluencePageIds": [],
+        "sourceUrl": "https://salesforce.example/request/sf-request-006-feature"
+      },
+      {
+        "id": "sf-request-006-support",
+        "canonicalRequestId": "request-006-support",
+        "customerId": "customer-006",
+        "type": "Support",
+        "title": "Settlement file for online card capture arrived late",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-17T08:30:00Z",
+        "dueAtUtc": "2026-09-20T17:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-006",
+        "opportunityId": null,
+        "jiraIssueIds": [],
+        "confluencePageIds": [],
+        "sourceUrl": "https://salesforce.example/request/sf-request-006-support"
+      },
+      {
+        "id": "sf-request-007-rfp",
+        "canonicalRequestId": "request-007-rfp",
+        "customerId": "customer-007",
+        "type": "RFP",
+        "title": "Halcyon Wallet online card authorization proposal",
+        "status": "InProgress",
+        "receivedAtUtc": "2026-09-04T09:00:00Z",
+        "dueAtUtc": "2026-10-16T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-007",
+        "opportunityId": "sf-opp-007-open",
+        "jiraIssueIds": [
+          "jira-007-open"
+        ],
+        "confluencePageIds": [
+          "page-007-rfp"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-007-rfp"
+      },
+      {
+        "id": "sf-request-007-rfi",
+        "canonicalRequestId": "request-007-rfi",
+        "customerId": "customer-007",
+        "type": "RFI",
+        "title": "Scheme fee and interchange information request",
+        "status": "Resolved",
+        "receivedAtUtc": "2026-08-20T10:00:00Z",
+        "dueAtUtc": "2026-09-05T16:00:00Z",
+        "resolvedAtUtc": "2026-09-03T15:00:00Z",
+        "ownerId": "owner-007b",
+        "opportunityId": null,
+        "jiraIssueIds": [],
+        "confluencePageIds": [
+          "page-007-plan"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-007-rfi"
+      },
+      {
+        "id": "sf-request-007-feature",
+        "canonicalRequestId": "request-007-feature",
+        "customerId": "customer-007",
+        "type": "FeatureRequest",
+        "title": "3-D Secure challenge for the stored-card wallet",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-15T13:00:00Z",
+        "dueAtUtc": "2026-10-30T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-007b",
+        "opportunityId": null,
+        "jiraIssueIds": [
+          "jira-007-done"
+        ],
+        "confluencePageIds": [],
+        "sourceUrl": "https://salesforce.example/request/sf-request-007-feature"
+      },
+      {
+        "id": "sf-request-007-support",
+        "canonicalRequestId": "request-007-support",
+        "customerId": "customer-007",
+        "type": "Support",
+        "title": "Settlement file for online card capture arrived late",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-17T08:30:00Z",
+        "dueAtUtc": "2026-09-20T17:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-007",
+        "opportunityId": null,
+        "jiraIssueIds": [],
+        "confluencePageIds": [],
+        "sourceUrl": "https://salesforce.example/request/sf-request-007-support"
+      },
+      {
+        "id": "sf-request-008-rfp",
+        "canonicalRequestId": "request-008-rfp",
+        "customerId": "customer-008",
+        "type": "RFP",
+        "title": "Plexa Checkout online card authorization proposal",
+        "status": "InProgress",
+        "receivedAtUtc": "2026-09-04T09:00:00Z",
+        "dueAtUtc": "2026-10-16T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-008",
+        "opportunityId": "sf-opp-008-open",
+        "jiraIssueIds": [
+          "jira-008-open"
+        ],
+        "confluencePageIds": [
+          "page-008-rfp"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-008-rfp"
+      },
+      {
+        "id": "sf-request-008-rfi",
+        "canonicalRequestId": "request-008-rfi",
+        "customerId": "customer-008",
+        "type": "RFI",
+        "title": "Scheme fee and interchange information request",
+        "status": "Resolved",
+        "receivedAtUtc": "2026-08-20T10:00:00Z",
+        "dueAtUtc": "2026-09-05T16:00:00Z",
+        "resolvedAtUtc": "2026-09-03T15:00:00Z",
+        "ownerId": "owner-008b",
+        "opportunityId": null,
+        "jiraIssueIds": [],
+        "confluencePageIds": [
+          "page-008-plan"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-008-rfi"
+      },
+      {
+        "id": "sf-request-008-feature",
+        "canonicalRequestId": "request-008-feature",
+        "customerId": "customer-008",
+        "type": "FeatureRequest",
+        "title": "3-D Secure challenge for the platform checkout",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-15T13:00:00Z",
+        "dueAtUtc": "2026-10-30T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-008b",
+        "opportunityId": null,
+        "jiraIssueIds": [
+          "jira-008-done"
+        ],
+        "confluencePageIds": [],
+        "sourceUrl": "https://salesforce.example/request/sf-request-008-feature"
+      },
+      {
+        "id": "sf-request-008-support",
+        "canonicalRequestId": "request-008-support",
+        "customerId": "customer-008",
+        "type": "Support",
+        "title": "Settlement file for online card capture arrived late",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-17T08:30:00Z",
+        "dueAtUtc": "2026-09-20T17:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-008",
+        "opportunityId": null,
+        "jiraIssueIds": [],
+        "confluencePageIds": [],
+        "sourceUrl": "https://salesforce.example/request/sf-request-008-support"
+      },
+      {
+        "id": "sf-request-009-rfp",
+        "canonicalRequestId": "request-009-rfp",
+        "customerId": "customer-009",
+        "type": "RFP",
+        "title": "Brindle Commerce online card authorization proposal",
+        "status": "InProgress",
+        "receivedAtUtc": "2026-09-04T09:00:00Z",
+        "dueAtUtc": "2026-10-16T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-009",
+        "opportunityId": "sf-opp-009-open",
+        "jiraIssueIds": [
+          "jira-009-open"
+        ],
+        "confluencePageIds": [
+          "page-009-rfp"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-009-rfp"
+      },
+      {
+        "id": "sf-request-009-rfi",
+        "canonicalRequestId": "request-009-rfi",
+        "customerId": "customer-009",
+        "type": "RFI",
+        "title": "Scheme fee and interchange information request",
+        "status": "Resolved",
+        "receivedAtUtc": "2026-08-20T10:00:00Z",
+        "dueAtUtc": "2026-09-05T16:00:00Z",
+        "resolvedAtUtc": "2026-09-03T15:00:00Z",
+        "ownerId": "owner-009b",
+        "opportunityId": null,
+        "jiraIssueIds": [],
+        "confluencePageIds": [
+          "page-009-plan"
+        ],
+        "sourceUrl": "https://salesforce.example/request/sf-request-009-rfi"
+      },
+      {
+        "id": "sf-request-009-feature",
+        "canonicalRequestId": "request-009-feature",
+        "customerId": "customer-009",
+        "type": "FeatureRequest",
+        "title": "3-D Secure challenge for the marketplace checkout",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-15T13:00:00Z",
+        "dueAtUtc": "2026-10-30T16:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-009b",
+        "opportunityId": null,
+        "jiraIssueIds": [
+          "jira-009-done"
+        ],
+        "confluencePageIds": [],
+        "sourceUrl": "https://salesforce.example/request/sf-request-009-feature"
+      },
+      {
+        "id": "sf-request-009-support",
+        "canonicalRequestId": "request-009-support",
+        "customerId": "customer-009",
+        "type": "Support",
+        "title": "Settlement file for online card capture arrived late",
+        "status": "Open",
+        "receivedAtUtc": "2026-09-17T08:30:00Z",
+        "dueAtUtc": "2026-09-20T17:00:00Z",
+        "resolvedAtUtc": null,
+        "ownerId": "owner-009",
+        "opportunityId": null,
+        "jiraIssueIds": [],
+        "confluencePageIds": [],
+        "sourceUrl": "https://salesforce.example/request/sf-request-009-support"
+      }
+    ]
+  }
+}

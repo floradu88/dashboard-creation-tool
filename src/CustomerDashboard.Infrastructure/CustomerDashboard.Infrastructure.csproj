@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><ItemGroup><ProjectReference Include="../CustomerDashboard.Application/CustomerDashboard.Application.csproj" /><ProjectReference Include="../CustomerDashboard.Domain/CustomerDashboard.Domain.csproj" /></ItemGroup></Project>

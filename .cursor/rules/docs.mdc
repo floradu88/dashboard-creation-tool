@@ -1,0 +1,8 @@
+---
+description: Documentation responsibilities and validation
+globs: "docs/**/*"
+alwaysApply: false
+---
+
+Read and follow `docs/AGENTS.md` and its ancestor `AGENTS.md` files before editing matched files. These shared files define scope, dependency boundaries, data rules and validation expectations.
+
