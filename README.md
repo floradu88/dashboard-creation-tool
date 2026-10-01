@@ -2,12 +2,12 @@
 
 Local mock of the customer dashboard in [PLAN.md](PLAN.md). The API is a .NET 10 modular monolith and the UI is Angular 22. Both read fictional JSON. Live Salesforce, Alexis, Jira, Confluence, Slack, news, and market connections are not part of this phase.
 
-```powershell
-powershell -File scripts/setup.ps1
-powershell -File scripts/run.ps1
+```bat
+scripts\setup.cmd
+scripts\run.cmd
 ```
 
-PowerShell 7 can run the same files with `pwsh -File` in place of `powershell -File`.
+`setup.cmd` installs a missing .NET 10 SDK and Node.js 24 for the current user, without an administrator account, then restores dependencies. It does not change the machine execution policy. Details are in [docs/RUNNING.md](docs/RUNNING.md).
 
 Then open http://localhost:4200. The API is at http://127.0.0.1:5080, including OpenAPI, `/health/ready`, and the loopback MCP server at `/mcp`.
 

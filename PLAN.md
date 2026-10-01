@@ -324,29 +324,35 @@ Keep secrets in developer secret storage locally and a managed secret store in h
 
 **These commands describe the planned boilerplate interface. They become runnable after the scripts and applications are created.** The current deliverable is this plan.
 
-Prerequisites: Windows PowerShell 5.1 or PowerShell 7, .NET 10 SDK, and a Node.js LTS version supported by the selected Angular release. Pin the SDK in `global.json`, document the Node version, commit the npm lockfile, and use the local Angular CLI. Check current SDK support and servicing against the [Microsoft lifecycle](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-and-net-core) during setup.
+Prerequisites: Windows PowerShell 5.1 or PowerShell 7. `setup.ps1` installs the .NET 10 SDK and Node.js 24 for the current user when they are missing. Pin the SDK in `global.json`, document the Node version, commit the npm lockfile, and use the local Angular CLI. Check current SDK support and servicing against the [Microsoft lifecycle](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-and-net-core) during setup.
 
 | Script | Required behavior |
 | --- | --- |
-| `setup.ps1` | Check prerequisites, restore .NET dependencies, run `npm ci`, validate mock configuration; clearly report missing prerequisites |
+| `install-prereqs.ps1` | Install a missing .NET 10 SDK and Node.js 24 for the current user, without administrator rights. Announce each download. |
+| `setup.ps1` | Run `install-prereqs.ps1`, then restore .NET dependencies and run `npm ci`. |
 | `run.ps1 -Mode Mock -ApiPort 5080 -UiPort 4200` | Start API and Angular, await readiness, print URLs and log paths |
 | `debug.ps1 -Mode Mock -ApiPort 5080 -UiPort 4200` | Start Debug configuration and source maps; print API PID and attach instructions |
 | `test.ps1` | Run backend tests, Angular checks/tests, and the agreed smoke suite; preserve nonzero exit codes |
 | `stop.ps1` | Gracefully stop only recorded processes belonging to this workspace; tolerate already-exited processes |
 
-Scripts must resolve repository paths using `$PSScriptRoot`, handle spaces, detect occupied ports, clean up child processes on failure/Ctrl+C, and avoid broad process termination. Background helpers on Windows must use hidden windows and write logs under a gitignored `.local/` directory. Validate PID ownership before stopping a process. Never change machine-wide execution policy or download prerequisites silently.
+Scripts must resolve repository paths using `$PSScriptRoot`, handle spaces, detect occupied ports, clean up child processes on failure/Ctrl+C, and avoid broad process termination. Background helpers on Windows must use hidden windows and write logs under a gitignored `.local/` directory. Validate PID ownership before stopping a process. Never change machine-wide execution policy. Prerequisite downloads are announced and installed only for the current user.
 
 Planned first run, from the repository root:
 
+```bat
+scripts\setup.cmd
+scripts\run.cmd -Mode Mock
+```
+
 ```powershell
-powershell -File .\scripts\setup.ps1
-powershell -File .\scripts\run.ps1 -Mode Mock
-# PowerShell 7: pwsh -File .\scripts\setup.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\run.ps1 -Mode Mock
+# PowerShell 7: pwsh -NoProfile -File .\scripts\setup.ps1
 # UI: http://localhost:4200
 # API readiness: http://localhost:5080/health/ready
 # OpenAPI: http://localhost:5080/openapi/v1.json
 # Stop with Ctrl+C, or from another terminal:
-powershell -File .\scripts\stop.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\stop.ps1
 ```
 
 Planned debug workflow:

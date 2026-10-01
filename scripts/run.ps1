@@ -7,6 +7,8 @@ param(
     [switch]$Detach
 )
 . "$PSScriptRoot/common.ps1"
+. "$PSScriptRoot/prereqs.ps1"
+Resolve-InstalledTools
 if ($ApiPort -eq $UiPort) { throw 'API and UI require different ports.' }
 New-Item -ItemType Directory -Path $LocalRoot -Force | Out-Null
 $lock = [System.IO.File]::Open((Join-Path $LocalRoot 'startup.lock'), 'OpenOrCreate', 'ReadWrite', 'None')
@@ -21,9 +23,9 @@ try {
         $probe = [System.Net.Sockets.TcpListener]::new([System.Net.IPAddress]::Loopback, $port)
         try { $probe.Start() } catch { throw "Port $port is occupied. Use -ApiPort / -UiPort." } finally { $probe.Stop() }
     }
-    if (-not (Test-Path (Join-Path $UiRoot 'node_modules/@angular/cli/bin/ng.js'))) { throw 'Dependencies missing. Run setup.ps1.' }
+    if (-not (Test-Path (Join-Path $UiRoot 'node_modules/@angular/cli/bin/ng.js'))) { throw 'Dependencies missing. Run scripts\setup.cmd' }
     Push-Location $RepoRoot
-    try { Invoke-Checked dotnet @('build', 'src/CustomerDashboard.Api/CustomerDashboard.Api.csproj', '--no-restore', '-c', $Configuration) } finally { Pop-Location }
+    try { Invoke-Checked $script:DotNetExe @('build', 'src/CustomerDashboard.Api/CustomerDashboard.Api.csproj', '--no-restore', '-c', $Configuration) } finally { Pop-Location }
     $proxyPath = Join-Path $LocalRoot 'proxy.json'
     Set-Utf8File $proxyPath ((@{ '/api/**' = @{ target = "http://127.0.0.1:$ApiPort"; secure = $false; changeOrigin = $true } } | ConvertTo-Json -Depth 5))
     $entries = [System.Collections.Generic.List[object]]::new()
@@ -39,10 +41,10 @@ try {
         return $process.Id
     }
     $dll = Join-Path $RepoRoot "src/CustomerDashboard.Api/bin/$Configuration/net10.0/CustomerDashboard.Api.dll"
-    $apiId = Start-Owned (Get-Command dotnet).Source @($dll, '--urls', "http://127.0.0.1:${ApiPort};http://[::1]:${ApiPort}", '--environment', 'Development') 'api' $RepoRoot
+    $apiId = Start-Owned $script:DotNetExe @($dll, '--urls', "http://127.0.0.1:${ApiPort};http://[::1]:${ApiPort}", '--environment', 'Development') 'api' $RepoRoot
     $started = $true
     Wait-Endpoint "http://127.0.0.1:$ApiPort/health/ready"
-    $uiId = Start-Owned (Get-Command node).Source @((Join-Path $UiRoot 'node_modules/@angular/cli/bin/ng.js'), 'serve', '--host', 'localhost', '--port', "$UiPort", '--proxy-config', $proxyPath) 'ui' $UiRoot
+    $uiId = Start-Owned $script:NodeExe @((Join-Path $UiRoot 'node_modules/@angular/cli/bin/ng.js'), 'serve', '--host', 'localhost', '--port', "$UiPort", '--proxy-config', $proxyPath) 'ui' $UiRoot
     Wait-Endpoint "http://localhost:$UiPort" 120
     Write-Host "UI: http://localhost:$UiPort | API: http://127.0.0.1:$ApiPort | MCP: http://127.0.0.1:$ApiPort/mcp"
     Write-Host "API PID: $apiId | UI PID: $uiId | Logs: $LocalRoot"
