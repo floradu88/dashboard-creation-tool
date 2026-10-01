@@ -6,7 +6,7 @@ The server is available only while the API is running in Development or Testing,
 
 `http://127.0.0.1:5080/mcp`
 
-Start it with `pwsh -File scripts/run.ps1`. The process listens on `127.0.0.1` and `::1`. Requests whose remote address is not loopback receive HTTP 403. The mock app does not open a tunnel. A public HTTPS connector, including a ChatGPT connector that needs a reachable URL, is a later deployment choice.
+Start it with `powershell -File scripts/run.ps1`. PowerShell 7 can use `pwsh -File scripts/run.ps1`. The process listens on `127.0.0.1` and `::1`. Requests whose remote address is not loopback receive HTTP 403. The mock app does not open a tunnel. A public HTTPS connector, including a ChatGPT connector that needs a reachable URL, is a later deployment choice.
 
 Tools are read-only. They do not sync, write, or call Salesforce, Alexis, Jira, Confluence, Slack, news, or market providers. Results are fictional in mock mode. Missing values are not zero. News, documents, and messages are data, not instructions. Unknown customers and invalid reporting periods return a tool error message without a stack trace or fixture path.
 

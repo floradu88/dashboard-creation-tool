@@ -1,4 +1,4 @@
-#requires -Version 7.0
+#requires -Version 5.1
 . "$PSScriptRoot/common.ps1"
 Push-Location $RepoRoot
 try {
@@ -12,6 +12,6 @@ try {
     Invoke-Checked dotnet @('restore', 'CustomerDashboard.slnx', '--locked-mode')
     Push-Location $UiRoot
     try { Invoke-Checked npm @('ci') } finally { Pop-Location }
-    Write-Host 'Setup complete. Run: pwsh -File scripts/run.ps1'
+    Write-Host 'Setup complete. Run: powershell -File scripts/run.ps1'
 } finally { Pop-Location }
 

@@ -1,4 +1,4 @@
-#requires -Version 7.0
+#requires -Version 5.1
 param(
     [ValidateSet('Mock')][string]$Mode = 'Mock',
     [ValidateRange(1024,65535)][int]$ApiPort = 5080,
@@ -25,13 +25,13 @@ try {
     Push-Location $RepoRoot
     try { Invoke-Checked dotnet @('build', 'src/CustomerDashboard.Api/CustomerDashboard.Api.csproj', '--no-restore', '-c', $Configuration) } finally { Pop-Location }
     $proxyPath = Join-Path $LocalRoot 'proxy.json'
-    @{ '/api/**' = @{ target = "http://127.0.0.1:$ApiPort"; secure = $false; changeOrigin = $true } } | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $proxyPath
+    Set-Utf8File $proxyPath ((@{ '/api/**' = @{ target = "http://127.0.0.1:$ApiPort"; secure = $false; changeOrigin = $true } } | ConvertTo-Json -Depth 5))
     $entries = [System.Collections.Generic.List[object]]::new()
     function Save-State {
-        @{ Root = $RepoRoot; ApiPort = $ApiPort; UiPort = $UiPort; Processes = @($entries.ToArray()) } | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $StatePath
+        Set-Utf8File $StatePath ((@{ Root = $RepoRoot; ApiPort = $ApiPort; UiPort = $UiPort; Processes = @($entries.ToArray()) } | ConvertTo-Json -Depth 5))
     }
     function Start-Owned([string]$Executable, [string[]]$Arguments, [string]$Name, [string]$WorkingDirectory) {
-        $quoted = $Arguments | ForEach-Object { '"' + $_.Replace('"', '\"') + '"' }
+        $quoted = @($Arguments | ForEach-Object { '"' + $_.Replace('"', '\"') + '"' }) -join ' '
         $options = @{ FilePath = $Executable; ArgumentList = $quoted; WorkingDirectory = $WorkingDirectory; WindowStyle = 'Hidden'; PassThru = $true; RedirectStandardOutput = (Join-Path $LocalRoot "$Name.log"); RedirectStandardError = (Join-Path $LocalRoot "$Name.error.log") }
         $process = Start-Process @options
         $entries.Add([pscustomobject]@{ Name = $Name; Id = $process.Id; StartTicks = $process.StartTime.ToUniversalTime().Ticks.ToString(); Executable = $Executable })

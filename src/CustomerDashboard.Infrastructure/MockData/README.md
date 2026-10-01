@@ -334,10 +334,12 @@ Field-by-field provider notes remain in [docs/json-input](../../../../docs/json-
 From the repository root:
 
 ```powershell
-pwsh -File scripts/validate-fixtures.ps1
+powershell -File scripts/validate-fixtures.ps1
 ```
 
-The same check without the script:
+PowerShell 7 can run the same file with `pwsh -File scripts/validate-fixtures.ps1`.
+
+The same check without the script, from the repository root:
 
 ```powershell
 $env:ASPNETCORE_ENVIRONMENT = "Development"

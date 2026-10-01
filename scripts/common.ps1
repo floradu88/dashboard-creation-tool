@@ -1,4 +1,4 @@
-#requires -Version 7.0
+#requires -Version 5.1
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 $script:RepoRoot = Split-Path $PSScriptRoot -Parent
@@ -10,11 +10,22 @@ function Invoke-Checked {
     & $Command @Arguments
     if ($LASTEXITCODE -ne 0) { throw "$Command exited with code $LASTEXITCODE." }
 }
+function Set-Utf8File {
+    param([string]$Path, [string]$Value)
+    $encoding = New-Object System.Text.UTF8Encoding $false
+    [System.IO.File]::WriteAllText($Path, $Value, $encoding)
+}
+function Get-ProcessPath {
+    param([int]$ProcessId)
+    $instance = Get-CimInstance Win32_Process -Filter "ProcessId = $ProcessId" -ErrorAction SilentlyContinue
+    if ($instance -and $instance.ExecutablePath) { return [string]$instance.ExecutablePath }
+    return ''
+}
 function Test-OwnedProcess {
     param($Entry)
     $candidate = Get-Process -Id $Entry.Id -ErrorAction SilentlyContinue
     if (-not $candidate) { return $false }
-    return $candidate.StartTime.ToUniversalTime().Ticks.ToString() -eq $Entry.StartTicks -and $candidate.Path -eq $Entry.Executable
+    return $candidate.StartTime.ToUniversalTime().Ticks.ToString() -eq [string]$Entry.StartTicks -and (Get-ProcessPath $Entry.Id) -eq [string]$Entry.Executable
 }
 function Stop-WorkspaceProcesses {
     if (-not (Test-Path -LiteralPath $script:StatePath)) { return }
@@ -27,7 +38,7 @@ function Stop-WorkspaceProcesses {
                 foreach ($child in @(Get-CimInstance Win32_Process -Filter "ParentProcessId = $Parent")) {
                     $process = Get-Process -Id $child.ProcessId -ErrorAction SilentlyContinue
                     if ($process) {
-                        $children.Add([pscustomobject]@{ Id = $process.Id; StartTicks = $process.StartTime.ToUniversalTime().Ticks.ToString(); Executable = $process.Path })
+                        $children.Add([pscustomobject]@{ Id = $process.Id; StartTicks = $process.StartTime.ToUniversalTime().Ticks.ToString(); Executable = (Get-ProcessPath $process.Id) })
                         Find-Children $process.Id
                     }
                 }
@@ -48,7 +59,7 @@ function Wait-Endpoint {
     $deadline = [DateTime]::UtcNow.AddSeconds($Seconds)
     while ([DateTime]::UtcNow -lt $deadline) {
         try {
-            $response = Invoke-WebRequest -Uri $Url -TimeoutSec 2 -SkipHttpErrorCheck
+            $response = Invoke-WebRequest -Uri $Url -TimeoutSec 2 -UseBasicParsing
             if ($response.StatusCode -eq 200) { return }
         } catch { }
         Start-Sleep -Milliseconds 500

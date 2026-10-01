@@ -3,9 +3,11 @@
 Local mock of the customer dashboard in [PLAN.md](PLAN.md). The API is a .NET 10 modular monolith and the UI is Angular 22. Both read fictional JSON. Live Salesforce, Alexis, Jira, Confluence, Slack, news, and market connections are not part of this phase.
 
 ```powershell
-pwsh -File scripts/setup.ps1
-pwsh -File scripts/run.ps1
+powershell -File scripts/setup.ps1
+powershell -File scripts/run.ps1
 ```
+
+PowerShell 7 can run the same files with `pwsh -File` in place of `powershell -File`.
 
 Then open http://localhost:4200. The API is at http://127.0.0.1:5080, including OpenAPI, `/health/ready`, and the loopback MCP server at `/mcp`.
 

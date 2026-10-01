@@ -1,4 +1,4 @@
-#requires -Version 7.0
+#requires -Version 5.1
 param([switch]$E2E)
 . "$PSScriptRoot/common.ps1"
 Push-Location $RepoRoot

@@ -2,7 +2,7 @@
 
 Use these guides to prepare JSON for the mocked dashboard. The supplied files are **application-owned normalized inputs**, not exports that exactly match Salesforce, Slack or other vendor API responses. Later integrators will map real records into these contracts.
 
-**Add a customer:** the copy-paste JSON shape and the validate command are in [MockData/README.md](../../src/CustomerDashboard.Infrastructure/MockData/README.md). `pwsh -File scripts/validate-fixtures.ps1` runs the same checks the API uses at startup.
+**Add a customer:** the copy-paste JSON shape and the validate command are in [MockData/README.md](../../src/CustomerDashboard.Infrastructure/MockData/README.md). `powershell -File scripts/validate-fixtures.ps1` runs the same checks the API uses at startup. PowerShell 7 can use `pwsh -File` for the same script.
 
 **Current state:** The mock API loads these eight files from `src/CustomerDashboard.Infrastructure/MockData` at startup. The files are the fictional demonstration set: the original three customers and their edge cases, plus six online card-transaction companies (Lumen Checkout, Nimbus Pay, Quay Ledger, Halcyon Wallet, Plexa Checkout, and Brindle Commerce) with records in every dashboard category. Saving a change appears after the API restarts. Invalid files fail startup and are not served.
 

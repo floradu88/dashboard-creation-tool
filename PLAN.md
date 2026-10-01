@@ -324,7 +324,7 @@ Keep secrets in developer secret storage locally and a managed secret store in h
 
 **These commands describe the planned boilerplate interface. They become runnable after the scripts and applications are created.** The current deliverable is this plan.
 
-Prerequisites: PowerShell 7, .NET 10 SDK, and a Node.js LTS version supported by the selected Angular release. Pin the SDK in `global.json`, document the Node version, commit the npm lockfile, and use the local Angular CLI. Check current SDK support and servicing against the [Microsoft lifecycle](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-and-net-core) during setup.
+Prerequisites: Windows PowerShell 5.1 or PowerShell 7, .NET 10 SDK, and a Node.js LTS version supported by the selected Angular release. Pin the SDK in `global.json`, document the Node version, commit the npm lockfile, and use the local Angular CLI. Check current SDK support and servicing against the [Microsoft lifecycle](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-and-net-core) during setup.
 
 | Script | Required behavior |
 | --- | --- |
@@ -339,19 +339,20 @@ Scripts must resolve repository paths using `$PSScriptRoot`, handle spaces, dete
 Planned first run, from the repository root:
 
 ```powershell
-pwsh -File .\scripts\setup.ps1
-pwsh -File .\scripts\run.ps1 -Mode Mock
+powershell -File .\scripts\setup.ps1
+powershell -File .\scripts\run.ps1 -Mode Mock
+# PowerShell 7: pwsh -File .\scripts\setup.ps1
 # UI: http://localhost:4200
 # API readiness: http://localhost:5080/health/ready
 # OpenAPI: http://localhost:5080/openapi/v1.json
 # Stop with Ctrl+C, or from another terminal:
-pwsh -File .\scripts\stop.ps1
+powershell -File .\scripts\stop.ps1
 ```
 
 Planned debug workflow:
 
 ```powershell
-pwsh -File .\scripts\debug.ps1 -Mode Mock
+powershell -File .\scripts\debug.ps1 -Mode Mock
 # Attach the .NET debugger to the reported API process.
 # Launch the browser debugger against http://localhost:4200.
 ```
